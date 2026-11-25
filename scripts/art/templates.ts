@@ -27,11 +27,12 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 const step = (n: number, body: string) => `<g data-step="${n}">${body}</g>`;
 const textW = (t: string, size: number) => t.length * (size * 0.72 + 1) + 4;
 
-export function pill(x: number, y: number, label: string, o: { size?: number; fill?: string; color?: string; stroke?: string } = {}) {
+export function pill(x: number, y: number, label: string, o: { size?: number; fill?: string; color?: string; stroke?: string; maxW?: number } = {}) {
   const up = label.toUpperCase();
   if (label.trim().split(/\s+/).length > 5) throw new Error(`label "${label}" has more than 5 words`);
   let size = o.size ?? 14;
-  while (textW(up, size) + 26 > 380 && size > 10) size--;
+  const maxW = o.maxW ?? 380;
+  while (textW(up, size) + 26 > maxW && size > 9) size--;
   const w = textW(up, size) + 26;
   const h = size + 16;
   const cx = Math.min(Math.max(x, w / 2 + 6), 400 - w / 2 - 6);
@@ -103,7 +104,7 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
   compare: (a, c) => {
     const side = (s: Ic, x: number, win: boolean, n: number) => step(n,
       `<rect x="${x - 82}" y="70" width="164" height="230" rx="24" fill="${win ? W : S}" stroke="${N}" stroke-width="4"/>` +
-      icon(s.icon, x, 160, 110, { c, a: win }) + (s.value ? bigText(x, 250, s.value, 30, win ? R : N) : "") + pill(x, 330, s.label, { size: 13 }));
+      icon(s.icon, x, 160, 110, { c, a: win }) + (s.value ? bigText(x, 250, s.value, 30, win ? R : N) : "") + pill(x, 330, s.label, { size: 13, maxW: 180 }));
     return side(a.left, 108, a.win === "left", 1) + side(a.right, 292, a.win === "right", 2) +
       `<circle cx="200" cy="185" r="22" fill="${N}"/><text x="200" y="186" ${FONT} font-weight="900" font-size="15" fill="${W}" text-anchor="middle" dominant-baseline="central">${esc(a.vs ?? "VS")}</text>`;
   },
@@ -118,7 +119,7 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
       return ring + a.steps.map((s, i) => {
         const [x, y] = pos[i];
         return step(i + 1, `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="42" fill="${i === n - 1 ? W : S}" stroke="${N}" stroke-width="4"/>` +
-          icon(s.icon, x, y, 58, { c, a: i === n - 1 }) + pill(x, y + 58 > 380 ? y - 58 : y + 58, s.label, { size: 12 }));
+          icon(s.icon, x, y, 58, { c, a: i === n - 1 }) + pill(x, y + 58 > 380 ? y - 58 : y + 58, s.label, { size: 12, maxW: 170 }));
       }).join("");
     }
     const gap = 330 / n;
@@ -136,7 +137,7 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
     const lx = 90, rx = 310, ly = 140 + beam(lx) * -1, ry = 140 + beam(rx) * -1;
     const pan = (x: number, y: number, s: Ic, heavy: boolean) => `<path d="M${x} ${y} L${x - 50} ${y + 70} M${x} ${y} L${x + 50} ${y + 70}" stroke="${N}" stroke-width="3"/>` +
       `<path d="M${x - 64} ${y + 70} L${x + 64} ${y + 70} A64 30 0 0 1 ${x - 64} ${y + 70}Z" fill="${heavy ? W : S}" stroke="${N}" stroke-width="4"/>` +
-      icon(s.icon, x, y + 40, 62, { c, a: heavy }) + pill(x, y + 128, s.label, { size: 12 });
+      icon(s.icon, x, y + 40, 62, { c, a: heavy }) + pill(x, y + 128, s.label, { size: 12, maxW: 180 });
     return `<path d="M200 140 L200 340 M140 350 L260 350" stroke="${N}" stroke-width="6" stroke-linecap="round"/><path d="M175 350 L200 300 L225 350Z" fill="${N}"/>` +
       `<path d="M${lx} ${ly} L${rx} ${ry}" stroke="${N}" stroke-width="6" stroke-linecap="round"/><circle cx="200" cy="140" r="10" fill="${R}"/>` +
       step(1, pan(lx, ly, a.left, a.heavy === "left")) + step(2, pan(rx, ry, a.right, a.heavy === "right"));
@@ -157,18 +158,18 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
     step(2, `<circle cx="200" cy="190" r="16" fill="${R}"/>` + pill(200, 372, a.mid) + `<path d="M200 206 L200 354" stroke="${N}" stroke-width="3" stroke-dasharray="5 7"/>`),
   timeline: (a, c) => {
     const n = a.items.length, gap = 280 / Math.max(1, n - 1);
-    return `<path d="M60 200 L340 200" stroke="${N}" stroke-width="5" stroke-linecap="round"/>` + (a.icon ? icon(a.icon, 200, 80, 90, { c }) : "") +
+    return `<path d="M60 200 L340 200" stroke="${N}" stroke-width="5" stroke-linecap="round"/>` + (a.icon ? icon(a.icon, 200, 345, 64, { c }) : "") +
       a.items.map((it, i) => {
         const x = 60 + gap * i, last = i === n - 1, up = i % 2 === 0;
         return step(i + 1, `<circle cx="${x}" cy="200" r="${last ? 16 : 11}" fill="${last ? R : W}" stroke="${N}" stroke-width="4"/>` +
-          pill(x, up ? 250 : 150, it.label, { size: 12 }) + (it.sub ? `<text x="${x}" y="${up ? 285 : 115}" ${FONT} font-weight="800" font-size="12" fill="${N}" text-anchor="middle">${esc(it.sub.toUpperCase())}</text>` : ""));
+          pill(x, up ? 250 : 150, it.label, { size: 12, maxW: 130 }) + (it.sub ? `<text x="${x}" y="${up ? 285 : 115}" ${FONT} font-weight="800" font-size="12" fill="${N}" text-anchor="middle">${esc(it.sub.toUpperCase())}</text>` : ""));
       }).join("");
   },
   ba: (a, c) => `<text x="105" y="50" ${FONT} font-weight="800" font-size="13" letter-spacing="1.5" fill="${N}" text-anchor="middle">VORHER</text>` +
-    `<rect x="25" y="70" width="160" height="220" rx="24" fill="${S}" stroke="${N}" stroke-width="4"/>` + icon(a.before.icon, 105, 170, 100, { c }) + pill(105, 330, a.before.label, { size: 12 }) +
+    `<rect x="25" y="70" width="160" height="220" rx="24" fill="${S}" stroke="${N}" stroke-width="4"/>` + icon(a.before.icon, 105, 170, 100, { c }) + pill(105, 330, a.before.label, { size: 12, maxW: 185 }) +
     step(1, arrow(190, 180, 214, 180)) +
     step(2, `<text x="295" y="50" ${FONT} font-weight="800" font-size="13" letter-spacing="1.5" fill="${N}" text-anchor="middle">NACHHER</text>` +
-      `<rect x="215" y="70" width="160" height="220" rx="24" fill="${W}" stroke="${N}" stroke-width="4"/>` + icon(a.after.icon, 295, 170, 100, { c, a: true }) + pill(295, 330, a.after.label, { size: 12 })),
+      `<rect x="215" y="70" width="160" height="220" rx="24" fill="${W}" stroke="${N}" stroke-width="4"/>` + icon(a.after.icon, 295, 170, 100, { c, a: true }) + pill(295, 330, a.after.label, { size: 12, maxW: 185 })),
   zoom: (a, c) => icon(a.icon, 130, 230, 170, { c }) + pill(130, 352, a.label, { size: 13 }) +
     step(1, `<circle cx="170" cy="250" r="26" fill="none" stroke="${N}" stroke-width="4"/><path d="M190 232 L232 180" stroke="${N}" stroke-width="3" stroke-dasharray="5 7"/>`) +
     step(2, `<circle cx="285" cy="125" r="88" fill="${W}" stroke="${N}" stroke-width="6"/><path d="M220 186 L196 214" stroke="${N}" stroke-width="12" stroke-linecap="round"/>` +

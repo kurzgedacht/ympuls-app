@@ -113,6 +113,7 @@ export const ICONS: Record<string, (k: Ctx) => string> = {
   arrowup: (k) => shape("M50 10 L84 48 L62 48 L62 90 L38 90 L38 48 L16 48Z", acc(k, k.c)),
   arrowdown: (k) => shape("M50 90 L84 52 L62 52 L62 10 L38 10 L38 52 L16 52Z", acc(k, S)),
   pen: (k) => shape("M70 10 L90 30 L38 82 L14 88 L20 64Z", W) + `<path d="M62 18 L82 38 L90 30 L70 10Z" fill="${acc(k, k.c)}"/>`,
+  spread: (k) => [20, 50, 80].flatMap((x) => [20, 50, 80].map((y) => circ(x, y, 11, x === 80 && y === 80 ? acc(k, k.c) : x === 50 && y === 50 ? k.c : S))).join(""),
   mirror: (k) => `<ellipse cx="50" cy="42" rx="28" ry="34" fill="${S}" ${sk} stroke-width="3.5"/>` + line("M50 76 L50 92 M36 92 L64 92", 5) + `<circle cx="40" cy="30" r="5" fill="${acc(k, W)}"/>`,
 };
 

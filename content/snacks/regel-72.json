@@ -1,0 +1,18 @@
+{
+  "id": "regel-72",
+  "kind": "quiz",
+  "card": {
+    "type": "quiz",
+    "kind": "mc",
+    "question": "Die 72er-Regel: Bei 6 % Zins verdoppelt sich Geld in etwa …",
+    "options": [
+      "6 Jahren",
+      "12 Jahren",
+      "20 Jahren"
+    ],
+    "correct": 1,
+    "explanation": "72 geteilt durch 6 ergibt 12 Jahre. Praktisch zum Kopfrechnen."
+  },
+  "category": "finanzen",
+  "courseRef": "geld-grundlagen"
+}

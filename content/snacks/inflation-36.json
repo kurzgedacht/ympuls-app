@@ -1,0 +1,11 @@
+{
+  "id": "inflation-36",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "Bei *2 % Inflation* halbiert sich die Kaufkraft deines Geldes in etwa 36 Jahren. 72 geteilt durch 2.",
+    "art": "art/inflation-36.svg"
+  },
+  "category": "finanzen",
+  "courseRef": "geld-grundlagen"
+}
