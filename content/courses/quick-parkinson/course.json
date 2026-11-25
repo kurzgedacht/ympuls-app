@@ -1,0 +1,24 @@
+{
+  "slug": "quick-parkinson",
+  "title": "Parkinsons Gesetz",
+  "subtitle": "Arbeit dehnt sich aus",
+  "category": "self",
+  "format": "quick",
+  "level": 1,
+  "estMinutes": 2,
+  "createdAt": "2026-11-25",
+  "hook": "Eine Hausarbeit mit vier Wochen Zeit dauert vier Wochen. Mit vier Tagen dauert sie: vier Tage.",
+  "sources": [
+    "C. Northcote Parkinson: Parkinson's Law. The Economist (19. November 1955)",
+    "Buehler, Griffin & Ross (1994): Exploring the planning fallacy. Journal of Personality and Social Psychology 67(3)"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Quick Read",
+      "lessons": [
+        "parkinson"
+      ]
+    }
+  ]
+}

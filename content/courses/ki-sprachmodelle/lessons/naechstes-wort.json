@@ -1,0 +1,88 @@
+{
+  "slug": "naechstes-wort",
+  "title": "Das nächste Wort raten",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 1",
+      "heading": "Das nächste Wort raten",
+      "art": "art/naechstes-wort-1.svg"
+    },
+    {
+      "type": "poll",
+      "question": "Ergänze den Satz: „Nach dem Training trinke ich einen …“",
+      "options": [
+        "Shake",
+        "Kaffee",
+        "Wasser"
+      ],
+      "majority": 0,
+      "note": "Dein Gehirn hat gerade *vorhergesagt*, welches Wort passt. Genau das macht ein Sprachmodell. Nur mit viel mehr Text im Hinterkopf."
+    },
+    {
+      "type": "story",
+      "text": "Ein Sprachmodell bekommt Text und berechnet: Welches Wortstück *kommt wahrscheinlich als Nächstes*? Dann hängt es das an und rechnet neu.",
+      "art": "art/naechstes-wort-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Für „Nach dem Training trinke ich einen …“ hat jedes mögliche Wort eine *Wahrscheinlichkeit*. Shake vielleicht hoch, Toaster sehr niedrig.",
+      "art": "art/naechstes-wort-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Das wiederholt sich *Wortstück für Wortstück*. Ein ganzer Absatz entsteht so aus Hunderten einzelnen Vorhersagen. Wie eine sehr schlaue Autovervollständigung.",
+      "art": "art/naechstes-wort-5.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Was macht ein Sprachmodell im Kern?",
+      "options": [
+        "Es sucht Antworten in einer Datenbank",
+        "Es sagt das nächste Wortstück vorher",
+        "Es versteht Texte wie ein Mensch",
+        "Es kopiert Texte aus dem Internet"
+      ],
+      "correct": 1,
+      "explanation": "Im Kern ist es Vorhersage. Aus vielen Vorhersagen entstehen erstaunlich kluge Antworten, aber es gibt keine eingebaute Faktendatenbank."
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "ChatGPT schlägt jede Antwort in einer Datenbank nach.",
+          "true": false
+        },
+        {
+          "text": "Eine Antwort entsteht Stück für Stück.",
+          "true": true
+        },
+        {
+          "text": "Dieselbe Frage kann verschiedene Antworten bringen.",
+          "true": true
+        }
+      ],
+      "explanation": "Weil das Modell aus Wahrscheinlichkeiten auswählt, kann jede Antwort etwas anders ausfallen. Das ist so gewollt."
+    },
+    {
+      "type": "insight",
+      "text": "Ein Sprachmodell ist eine Vorhersagemaschine. Aus vielen kleinen Vorhersagen entsteht ein ganzer Text.",
+      "art": "art/naechstes-wort-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Stell einer KI zweimal *exakt dieselbe Frage*. Vergleich die Antworten. Was ist gleich, was anders?",
+      "art": "art/naechstes-wort-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Sprachmodelle sagen das nächste Wortstück vorher.",
+        "Antworten entstehen Stück für Stück.",
+        "Jede Antwort kann etwas anders ausfallen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "ki-sprachmodelle",
+  "title": "Wie KI-Sprachmodelle funktionieren",
+  "subtitle": "Tokens, Training, Halluzinationen",
+  "category": "technik",
+  "format": "course",
+  "level": 2,
+  "estMinutes": 14,
+  "createdAt": "2026-11-25",
+  "hook": "Eine KI wie ChatGPT macht im Kern nur eins: Sie rät das nächste Wortstück. Milliarden Mal.",
+  "sources": [
+    "Vaswani et al. (2017): Attention Is All You Need. NeurIPS",
+    "Brown et al. (2020): Language Models are Few-Shot Learners. NeurIPS",
+    "Ouyang et al. (2022): Training language models to follow instructions with human feedback. NeurIPS",
+    "Ji et al. (2023): Survey of Hallucination in Natural Language Generation. ACM Computing Surveys",
+    "3Blue1Brown: But what is a GPT? Visual intro to transformers (Video-Serie, 2024)",
+    "OpenAI Help Center: What are tokens and how to count them"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Das Grundprinzip",
+      "lessons": [
+        "naechstes-wort",
+        "tokens",
+        "training"
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Stärken und Grenzen",
+      "lessons": [
+        "aufmerksamkeit",
+        "halluzinationen",
+        "besser-prompten"
+      ]
+    }
+  ]
+}

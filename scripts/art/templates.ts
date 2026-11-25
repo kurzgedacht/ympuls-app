@@ -39,8 +39,8 @@ export function pill(x: number, y: number, label: string, o: { size?: number; fi
   return `<rect x="${(cx - w / 2).toFixed(1)}" y="${(y - h / 2).toFixed(1)}" width="${w.toFixed(1)}" height="${h}" rx="${h / 2}" fill="${o.fill ?? W}" stroke="${o.stroke ?? N}" stroke-width="2.5"/>` +
     `<text x="${cx.toFixed(1)}" y="${(y + 0.5).toFixed(1)}" ${FONT} font-weight="800" font-size="${size}" letter-spacing="1" fill="${o.color ?? N}" text-anchor="middle" dominant-baseline="central">${esc(up)}</text>`;
 }
-const bigText = (x: number, y: number, t: string, size: number, fill = N) => {
-  while (textW(t, size) > 360 && size > 18) size -= 2;
+const bigText = (x: number, y: number, t: string, size: number, fill = N, maxW = 360) => {
+  while (textW(t, size) > maxW && size > 14) size -= 2;
   return `<text x="${x}" y="${y}" ${FONT} font-weight="900" font-size="${size}" fill="${fill}" text-anchor="middle" dominant-baseline="central">${esc(t)}</text>`;
 };
 const arrow = (x1: number, y1: number, x2: number, y2: number, color = N) => {
@@ -82,7 +82,7 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
   curve: (a, c) => {
     const axes = `<path d="M${X0} ${Y1 - 20} L${X0} ${Y0} L${X1 + 20} ${Y0}" fill="none" stroke="${N}" stroke-width="5" stroke-linecap="round"/>` +
       (a.y ? pill(X0 + 70, 40, a.y, { size: 12 }) : "") + (a.x ? pill(X1 - 50, Y0 + 40, a.x, { size: 12 }) : "");
-    const ref = a.ref ? step(1, `<path d="${curvePath(a.ref)}" fill="none" stroke="${c === N ? "#1D3E6B" : c}" stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round"/>` + (a.refLabel ? pill(150, curveY(a.ref, 0.3) - 34, a.refLabel, { size: 12 }) : "")) : "";
+    const ref = a.ref ? step(1, `<path d="${curvePath(a.ref)}" fill="none" stroke="${c === N ? "#1D3E6B" : c}" stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round"/>` + (a.refLabel ? pill(290, 40, `- - ${a.refLabel}`, { size: 12, maxW: 190 }) : "")) : "";
     const main = step(a.ref ? 2 : 1, `<path d="${curvePath(a.shape)}" fill="none" stroke="${R}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>` + `<circle cx="${X1}" cy="${curveY(a.shape, 1).toFixed(1)}" r="9" fill="${R}"/>`);
     const markT = a.mark?.at ?? 0.75;
     const label = a.label || a.mark ? step(a.ref ? 3 : 2,
@@ -173,7 +173,7 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
   zoom: (a, c) => icon(a.icon, 130, 230, 170, { c }) + pill(130, 352, a.label, { size: 13 }) +
     step(1, `<circle cx="170" cy="250" r="26" fill="none" stroke="${N}" stroke-width="4"/><path d="M190 232 L232 180" stroke="${N}" stroke-width="3" stroke-dasharray="5 7"/>`) +
     step(2, `<circle cx="285" cy="125" r="88" fill="${W}" stroke="${N}" stroke-width="6"/><path d="M220 186 L196 214" stroke="${N}" stroke-width="12" stroke-linecap="round"/>` +
-      bigText(285, 125, a.detail, 34, R)),
+      bigText(285, 125, a.detail, 34, R, 150)),
   number: (a, c) => (a.icon ? icon(a.icon, 200, 105, 120, { c }) : `<circle cx="200" cy="105" r="46" fill="${c}" opacity=".3"/>`) +
     step(1, bigText(200, 230, a.value, 72, R)) + step(2, pill(200, 310, a.label) + (a.sub ? `<text x="200" y="355" ${FONT} font-weight="800" font-size="13" letter-spacing="1" fill="${N}" text-anchor="middle">${esc(a.sub.toUpperCase())}</text>` : "")),
   dots: (a) => {
@@ -214,6 +214,8 @@ const r: { [K in Art["t"]]: (a: Extract<Art, { t: K }>, c: string) => string } =
 };
 
 export function renderArt(a: Art, catColor: string): string {
+  // Sport's category colour is the accent red itself; use a soft red tint so red stays the single highlight.
+  if (catColor.toUpperCase() === R) catColor = "#F3C5CC";
   const body = (r[a.t] as (x: Art, c: string) => string)(a, catColor);
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">${body}</svg>`;
 }

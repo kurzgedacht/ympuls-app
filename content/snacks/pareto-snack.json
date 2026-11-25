@@ -1,0 +1,11 @@
+{
+  "id": "pareto-snack",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "Das Pareto-Prinzip: Oft bringen *20 % der Ursachen* rund 80 % der Wirkung. Keine exakte Zahl, aber eine starke Faustregel fürs Priorisieren.",
+    "art": "art/pareto-snack.svg"
+  },
+  "category": "business",
+  "courseRef": "quick-pareto"
+}

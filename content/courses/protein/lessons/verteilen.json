@@ -1,0 +1,94 @@
+{
+  "slug": "verteilen",
+  "title": "Verteilen statt stopfen",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 3",
+      "heading": "Verteilen statt stopfen",
+      "art": "art/verteilen-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Morgens Kaffee, mittags Brötchen, abends *ein riesiges Steak*. So sieht bei vielen die Protein-Verteilung aus. Fast alles am Abend.",
+      "art": "art/verteilen-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Besser: das Protein auf *drei bis fünf Mahlzeiten* verteilen. So bekommt dein Muskel mehrmals am Tag ein Aufbau-Signal.",
+      "art": "art/verteilen-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine Faustregel aus der Forschung: etwa *0,4 Gramm pro Kilo* je Mahlzeit. Bei 75 Kilo also rund 30 Gramm, viermal am Tag.",
+      "art": "art/verteilen-4.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Der Körper kann pro Mahlzeit nur 30 g Protein nutzen.",
+          "true": false
+        },
+        {
+          "text": "Verteilen über den Tag ist eine gute Strategie.",
+          "true": true
+        },
+        {
+          "text": "Abends Protein essen ist schlecht für die Muskeln.",
+          "true": false
+        }
+      ],
+      "explanation": "Eine Studie von 2023 zeigte: Auch 100 g auf einmal wurden genutzt, nur langsamer. Die 30-Gramm-Grenze ist ein Mythos. Verteilen bleibt trotzdem praktisch."
+    },
+    {
+      "type": "match",
+      "question": "Was liefert ungefähr wie viel Protein?",
+      "pairs": [
+        [
+          "250 g Magerquark",
+          "ca. 30 g"
+        ],
+        [
+          "2 Eier",
+          "ca. 13 g"
+        ],
+        [
+          "1 Scheibe Brot",
+          "ca. 3 g"
+        ]
+      ],
+      "explanation": "Quark ist ein Protein-Champion. Brot hat zwar etwas Protein, aber für 30 g bräuchtest du ein ganzes Brot."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Protein, das du über 30 g pro Mahlzeit isst, ist komplett verschwendet.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Der Körper verwertet auch größere Mengen, verteilt den Aufbau aber über mehr Stunden. Verschwendet ist es nicht."
+    },
+    {
+      "type": "insight",
+      "text": "Mehrere proteinreiche Mahlzeiten schlagen eine riesige. Die 30-Gramm-Grenze ist trotzdem ein Mythos.",
+      "art": "art/verteilen-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Gib deinem *Frühstück* morgen 20 bis 30 Gramm Protein. Etwa Skyr mit Haferflocken oder Rührei.",
+      "art": "art/verteilen-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Protein auf 3 bis 5 Mahlzeiten verteilen.",
+        "Faustregel: etwa 0,4 g/kg pro Mahlzeit.",
+        "Die 30-Gramm-Grenze ist ein Mythos."
+      ]
+    }
+  ]
+}

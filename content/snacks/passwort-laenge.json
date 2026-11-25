@@ -1,0 +1,13 @@
+{
+  "id": "passwort-laenge",
+  "category": "technik",
+  "kind": "fact",
+  "sources": [
+    "NIST Special Publication 800-63B: Digital Identity Guidelines"
+  ],
+  "card": {
+    "type": "story",
+    "text": "Länge schlägt Sonderzeichen: Ein langer Satz aus *vier zufälligen Wörtern* ist meist sicherer und leichter zu merken als ein kurzes P@ssw0rt!",
+    "art": "art/passwort-laenge.svg"
+  }
+}

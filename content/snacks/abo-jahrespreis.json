@@ -1,0 +1,11 @@
+{
+  "id": "abo-jahrespreis",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "Ein 15-Euro-Abo kostet *180 € im Jahr*. Rechne Monatspreise immer aufs Jahr hoch. Dann fragst du dich ehrlicher, ob es das wert ist.",
+    "art": "art/abo-jahrespreis.svg"
+  },
+  "category": "finanzen",
+  "courseRef": "quick-opportunitaetskosten"
+}

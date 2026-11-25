@@ -1,0 +1,81 @@
+{
+  "slug": "tief-vs-flach",
+  "title": "Tief gegen flach",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 1",
+      "heading": "Tief gegen flach",
+      "art": "art/tief-vs-flach-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Newport teilt Arbeit in zwei Arten. *Deep Work*: konzentriert, ohne Ablenkung, an der Grenze deines Könnens. *Shallow Work*: Mails, Orga, Kleinkram.",
+      "art": "art/tief-vs-flach-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Flache Arbeit fühlt sich produktiv an. Du bist beschäftigt, hakst Dinge ab. Aber sie schafft *selten echten Wert* und ist leicht zu ersetzen.",
+      "art": "art/tief-vs-flach-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Seine Formel: *Ergebnis = Zeit × Intensität*. Zwei Stunden mit voller Konzentration können mehr bringen als ein ganzer Tag mit ständigem Hin- und Herspringen.",
+      "art": "art/tief-vs-flach-4.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Deep oder Shallow? Rechts für Deep Work.",
+      "statements": [
+        {
+          "text": "Eine Hausarbeit-Gliederung ohne Handy schreiben.",
+          "true": true
+        },
+        {
+          "text": "Gruppenchat checken und antworten.",
+          "true": false
+        },
+        {
+          "text": "Einen Trainingsplan für einen Kunden entwickeln.",
+          "true": true
+        },
+        {
+          "text": "Termine hin- und herschieben.",
+          "true": false
+        }
+      ],
+      "explanation": "Deep Work fordert dein Können und schafft etwas Neues. Shallow Work ist nötig, aber jeder könnte sie machen."
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Warum ist Deep Work laut Newport heute so wertvoll?",
+      "options": [
+        "Weil es jeder kann",
+        "Weil es selten und gleichzeitig immer wichtiger wird",
+        "Weil es weniger anstrengend ist",
+        "Weil Mails unwichtig sind"
+      ],
+      "correct": 1,
+      "explanation": "Ablenkung ist überall, Konzentration wird selten. Gleichzeitig zählen komplexe Fähigkeiten immer mehr. Das macht Fokus zum Wettbewerbsvorteil."
+    },
+    {
+      "type": "insight",
+      "text": "Konzentration wird seltener und wertvoller zugleich. Wer sie trainiert, hat einen echten Vorteil.",
+      "art": "art/tief-vs-flach-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Zähl am Ende des Tages, wie viele Minuten du *wirklich am Stück* an einer schweren Sache gearbeitet hast. Die Zahl ist oft ernüchternd.",
+      "art": "art/tief-vs-flach-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Deep Work: konzentriert, wertvoll, selten.",
+        "Shallow Work: beschäftigt, aber leicht ersetzbar.",
+        "Ergebnis = Zeit × Intensität."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "kalorien-pro-gramm",
+  "category": "ernaehrung",
+  "kind": "quiz",
+  "sources": [
+    "DGE: Energiegehalt der Nährstoffe"
+  ],
+  "card": {
+    "type": "match",
+    "question": "Wie viele Kilokalorien pro Gramm?",
+    "pairs": [
+      [
+        "Fett",
+        "9 kcal"
+      ],
+      [
+        "Alkohol",
+        "7 kcal"
+      ],
+      [
+        "Protein",
+        "4 kcal"
+      ]
+    ],
+    "explanation": "Kohlenhydrate haben wie Protein etwa 4 kcal pro Gramm. Fett ist mehr als doppelt so energiereich. Alkohol liegt überraschend weit oben."
+  }
+}

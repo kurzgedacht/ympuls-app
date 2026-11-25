@@ -1,0 +1,27 @@
+{
+  "id": "muskelkater-laktat",
+  "category": "sport",
+  "kind": "myth",
+  "sources": [
+    "Cheung, Hume & Maxwell (2003): Delayed onset muscle soreness. Sports Medicine 33(2)"
+  ],
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Muskelkater kommt von Laktat im Muskel.",
+        "true": false
+      },
+      {
+        "text": "Muskelkater entsteht durch winzige Schäden in den Muskelfasern.",
+        "true": true
+      },
+      {
+        "text": "Laktat ist meist schon nach etwa einer Stunde abgebaut.",
+        "true": true
+      }
+    ],
+    "explanation": "Laktat ist längst weg, wenn der Muskelkater am nächsten Tag kommt. Ursache sind Mikroverletzungen und die Reparatur danach."
+  }
+}

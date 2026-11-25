@@ -1,0 +1,18 @@
+{
+  "id": "nische-quiz",
+  "kind": "quiz",
+  "card": {
+    "type": "quiz",
+    "kind": "mc",
+    "question": "Welche Zielgruppe verkauft sich am leichtesten?",
+    "options": [
+      "Alle, die fit werden wollen",
+      "Torhüter im Amateurfußball",
+      "Menschen"
+    ],
+    "correct": 1,
+    "explanation": "Je spezifischer, desto eher fühlt sich jemand gemeint. Für alle heißt für niemanden."
+  },
+  "category": "business",
+  "courseRef": "erste-kunden"
+}

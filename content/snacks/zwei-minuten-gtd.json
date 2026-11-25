@@ -1,0 +1,13 @@
+{
+  "id": "zwei-minuten-gtd",
+  "category": "self",
+  "kind": "howto",
+  "sources": [
+    "David Allen: Getting Things Done (2001)"
+  ],
+  "card": {
+    "type": "story",
+    "text": "Die Zwei-Minuten-Regel aus Getting Things Done: Dauert etwas *unter zwei Minuten*, erledige es sofort. Aufschreiben und später erinnern kostet mehr.",
+    "art": "art/zwei-minuten-gtd.svg"
+  }
+}

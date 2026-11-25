@@ -1,0 +1,13 @@
+{
+  "id": "wlan-frequenzen",
+  "category": "technik",
+  "kind": "fact",
+  "sources": [
+    "Bundesnetzagentur / IEEE 802.11"
+  ],
+  "card": {
+    "type": "story",
+    "text": "WLAN auf *2,4 GHz* kommt besser durch Wände, ist aber langsamer. *5 GHz* ist schneller, reicht aber weniger weit. Router im Flur? Lieber 2,4.",
+    "art": "art/wlan-frequenzen.svg"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "die-nachricht",
+  "title": "Die Nachricht, die funktioniert",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 5",
+      "heading": "Die Nachricht, die funktioniert",
+      "art": "art/die-nachricht-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "„Hey, ich habe jetzt ein Business! Hier mein Angebot, Link in Bio.“ Was denkst du, wenn du so etwas bekommst? *Genau.* Wegwischen.",
+      "art": "art/die-nachricht-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine gute Nachricht ist *persönlich, kurz und ohne Druck*. Sie zeigt, dass du an die Person gedacht hast. Und sie endet mit einer leichten Frage.",
+      "art": "art/die-nachricht-3.svg"
+    },
+    {
+      "type": "order",
+      "question": "Bau die Nachricht in der richtigen Reihenfolge.",
+      "items": [
+        "Hey Lena, hab gesehen, du läufst jetzt!",
+        "Ich coache gerade Studis für ihren ersten Halbmarathon.",
+        "Kennst du jemanden, für den das passen könnte?",
+        "Kein Stress, freu mich so oder so!"
+      ],
+      "explanation": "Persönlicher Einstieg, kurzer Kontext, leichte Frage, Druck raus. Die Frage nach jemand anderem fühlt sich für beide entspannter an."
+    },
+    {
+      "type": "story",
+      "text": "Der Trick mit der Frage *Kennst du jemanden?*: Niemand fühlt sich bedrängt. Und wer selbst Interesse hat, meldet sich oft genau dann.",
+      "art": "art/die-nachricht-5.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welche Nachricht hat die besten Chancen?",
+      "options": [
+        "Kauf mein Coaching, nur heute 20 % Rabatt!",
+        "Hey Tim, wie läuft das Training für den Stadtlauf? Ich helfe gerade Leuten bei genau sowas. Interesse an einem Tipp?",
+        "Hallo zusammen, Link in Bio!",
+        "Bitte teilt meinen Post."
+      ],
+      "correct": 1,
+      "explanation": "Name, echter Bezug, Hilfe statt Verkauf, leichte Frage. Druck und Massen-Nachrichten wirken dagegen wie Spam."
+    },
+    {
+      "type": "insight",
+      "text": "Schreib einem Menschen, nicht einer Zielgruppe. Persönlich, kurz und mit einer leichten Frage.",
+      "art": "art/die-nachricht-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Schreib heute *drei* solcher Nachrichten an Leute aus deiner Liste. Nicht mehr. Und schau, was passiert.",
+      "art": "art/die-nachricht-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Massen-Pitches werden weggewischt.",
+        "Persönlich, kurz, leichte Frage, kein Druck.",
+        "Kennst du jemanden? öffnet Türen."
+      ]
+    }
+  ]
+}

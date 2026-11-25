@@ -1,0 +1,17 @@
+{
+  "id": "planungsfehler",
+  "kind": "quiz",
+  "card": {
+    "type": "estimate",
+    "question": "Studierende planten 34 Tage für ihre Abschlussarbeit. Wie viele brauchten sie im Schnitt?",
+    "unit": "Tage",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "answer": 56,
+    "tolerance": 10,
+    "explanation": "Rund 56 Tage (Buehler et al., 1994). Wir unterschätzen Zeitbedarf fast immer."
+  },
+  "category": "self",
+  "courseRef": "quick-parkinson"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gps-vier-satelliten",
+  "category": "technik",
+  "kind": "quiz",
+  "sources": [
+    "gps.gov: How GPS works"
+  ],
+  "card": {
+    "type": "quiz",
+    "kind": "mc",
+    "question": "Wie viele Satelliten braucht deine Laufuhr mindestens für eine 3D-Position?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "Vier: drei für die Position, einer, um die Uhrzeit des Empfängers abzugleichen. Darum dauert der GPS-Fix manchmal etwas."
+  }
+}

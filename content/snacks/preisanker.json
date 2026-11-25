@@ -1,0 +1,13 @@
+{
+  "id": "preisanker",
+  "category": "business",
+  "kind": "howto",
+  "sources": [
+    "Tversky & Kahneman (1974): Judgment under uncertainty. Science 185"
+  ],
+  "card": {
+    "type": "story",
+    "text": "Kurzanleitung Preise: Zeig dein *Premium-Paket zuerst*. Die erste Zahl wirkt wie ein Anker. Danach wirkt das mittlere Paket viel günstiger.",
+    "art": "art/preisanker.svg"
+  }
+}

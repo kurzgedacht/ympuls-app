@@ -1,0 +1,13 @@
+{
+  "id": "schlaf-basketball",
+  "category": "sport",
+  "kind": "chart",
+  "sources": [
+    "Mah et al. (2011): The effects of sleep extension on the athletic performance of collegiate basketball players. Sleep 34(7)"
+  ],
+  "card": {
+    "type": "story",
+    "text": "Basketballer in Stanford schliefen ein paar Wochen *deutlich länger*. Ergebnis: schnellere Sprints und rund 9 % mehr Freiwurf-Treffer.",
+    "art": "art/schlaf-basketball.svg"
+  }
+}

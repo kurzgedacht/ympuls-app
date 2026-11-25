@@ -1,0 +1,25 @@
+{
+  "id": "mount-stupid-myth",
+  "kind": "myth",
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Die berühmte Mount-Stupid-Kurve stammt von Dunning und Kruger.",
+        "true": false
+      },
+      {
+        "text": "Selbsteinschätzungen sind oft ungenau.",
+        "true": true
+      },
+      {
+        "text": "Ein Teil des Effekts lässt sich statistisch erklären.",
+        "true": true
+      }
+    ],
+    "explanation": "Die Kurve ist ein Internet-Meme. Die Studie zeigte Balken nach Leistungsgruppen, keine Bergkurve."
+  },
+  "category": "self",
+  "courseRef": "quick-dunning-kruger"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "atomic-1-prozent",
+  "kind": "quote-idea",
+  "card": {
+    "type": "story",
+    "text": "Buch-Idee aus Atomic Habits: Jeden Tag *1 % besser* ergibt rechnerisch rund 38-mal besser nach einem Jahr. Ein Bild, kein Naturgesetz, aber die Richtung stimmt.",
+    "art": "art/atomic-1-prozent.svg"
+  },
+  "category": "buecher",
+  "courseRef": "buch-atomic-habits"
+}

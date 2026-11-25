@@ -1,0 +1,25 @@
+{
+  "slug": "quick-pareto",
+  "title": "Das Pareto-Prinzip",
+  "subtitle": "80/20: Wenig Ursache, viel Wirkung",
+  "category": "business",
+  "format": "quick",
+  "level": 1,
+  "estMinutes": 2,
+  "createdAt": "2026-11-25",
+  "hook": "Ein kleiner Teil deiner Arbeit bringt den Großteil deiner Ergebnisse. Die Frage ist nur: welcher?",
+  "sources": [
+    "Vilfredo Pareto: Cours d'économie politique (1896)",
+    "Joseph M. Juran: Quality Control Handbook (1951) – the vital few",
+    "Richard Koch: The 80/20 Principle (1997)"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Quick Read",
+      "lessons": [
+        "pareto"
+      ]
+    }
+  ]
+}

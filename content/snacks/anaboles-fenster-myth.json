@@ -1,0 +1,25 @@
+{
+  "id": "anaboles-fenster-myth",
+  "kind": "myth",
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Nach dem Training hast du nur 30 Minuten Zeit.",
+        "true": false
+      },
+      {
+        "text": "Die Tagesmenge Protein zählt am meisten.",
+        "true": true
+      },
+      {
+        "text": "Mehr als 30 g Protein pro Mahlzeit sind verschwendet.",
+        "true": false
+      }
+    ],
+    "explanation": "Timing ist zweitrangig, und auch große Portionen werden verwertet, nur langsamer."
+  },
+  "category": "ernaehrung",
+  "courseRef": "protein"
+}

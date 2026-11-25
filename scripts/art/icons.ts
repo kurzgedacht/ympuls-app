@@ -114,6 +114,12 @@ export const ICONS: Record<string, (k: Ctx) => string> = {
   arrowdown: (k) => shape("M50 90 L84 52 L62 52 L62 10 L38 10 L38 52 L16 52Z", acc(k, S)),
   pen: (k) => shape("M70 10 L90 30 L38 82 L14 88 L20 64Z", W) + `<path d="M62 18 L82 38 L90 30 L70 10Z" fill="${acc(k, k.c)}"/>`,
   spread: (k) => [20, 50, 80].flatMap((x) => [20, 50, 80].map((y) => circ(x, y, 11, x === 80 && y === 80 ? acc(k, k.c) : x === 50 && y === 50 ? k.c : S))).join(""),
+  chat: (k) => shape("M12 20 H88 V66 H44 L26 84 L28 66 H12Z", W) + [32, 50, 68].map((x, i) => `<circle cx="${x}" cy="43" r="5" fill="${i === 2 ? acc(k, N) : N}"/>`).join(""),
+  network: (k) => line("M50 50 L20 24 M50 50 L82 22 M50 50 L18 78 M50 50 L80 80 M20 24 L82 22", 4) + circ(20, 24, 9, S) + circ(82, 22, 9, S) + circ(18, 78, 9, S) + circ(80, 80, 9, S) + circ(50, 50, 13, acc(k, k.c)),
+  muscle: (k) => shape("M20 86 L20 60 C20 40 30 30 40 28 L44 14 L60 14 L58 30 C70 30 84 40 86 56 C88 74 74 86 56 86Z", acc(k, S)) + line("M44 50 C52 44 62 46 66 54", 4),
+  drumstick: (k) => shape("M60 14 C80 14 90 30 84 48 C80 60 66 64 56 60 L34 82 C36 90 24 94 20 86 C12 88 8 76 16 72 L38 50 C34 40 38 14 60 14Z", acc(k, GOLD)),
+  mail: (k) => rect(10, 24, 80, 54, 6, W) + line("M12 28 L50 56 L88 28", 4) + `<circle cx="84" cy="24" r="9" fill="${acc(k, k.c)}"/>`,
+  thermometer: (k) => line("M50 14 L50 62", 14) + `<path d="M50 14 L50 62" stroke="${W}" stroke-width="7" stroke-linecap="round"/>` + circ(50, 72, 14, acc(k, k.c)),
   mirror: (k) => `<ellipse cx="50" cy="42" rx="28" ry="34" fill="${S}" ${sk} stroke-width="3.5"/>` + line("M50 76 L50 92 M36 92 L64 92", 5) + `<circle cx="40" cy="30" r="5" fill="${acc(k, W)}"/>`,
 };
 

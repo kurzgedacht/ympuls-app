@@ -1,0 +1,11 @@
+{
+  "id": "quark-champion",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "Ein 250-Gramm-Becher Magerquark hat rund *30 Gramm Protein*. So viel wie ein kleines Hähnchenbrustfilet. Für meist unter einem Euro.",
+    "art": "art/quark-champion.svg"
+  },
+  "category": "ernaehrung",
+  "courseRef": "protein"
+}

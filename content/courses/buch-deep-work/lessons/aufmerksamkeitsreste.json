@@ -1,0 +1,75 @@
+{
+  "slug": "aufmerksamkeitsreste",
+  "title": "Aufmerksamkeitsreste",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 2",
+      "heading": "Aufmerksamkeitsreste",
+      "art": "art/aufmerksamkeitsreste-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Du lernst für die Klausur. *Nur kurz* aufs Handy schauen, zehn Sekunden. Dann zurück. Kein Ding, oder? Doch, leider.",
+      "art": "art/aufmerksamkeitsreste-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Die Forscherin Sophie Leroy zeigte: Nach einem Wechsel bleibt ein Teil deiner Aufmerksamkeit *bei der alten Aufgabe hängen*. Sie nennt es Aufmerksamkeitsrest.",
+      "art": "art/aufmerksamkeitsreste-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Das Ergebnis: Du sitzt wieder am Buch, aber *denkst halb* an die Nachricht. Deine Leistung sinkt, obwohl du dich bemühst.",
+      "art": "art/aufmerksamkeitsreste-4.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "In einer Studie zu Unterbrechungen: Wie viele Minuten dauerte es im Schnitt, bis Leute zur ursprünglichen Aufgabe zurückkehrten?",
+      "unit": "Min",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "answer": 23,
+      "tolerance": 7,
+      "explanation": "Gloria Mark fand rund 23 Minuten, weil oft weitere Aufgaben dazwischenkommen. Die Zahl bezieht sich auf Büroarbeit, nicht auf jede Unterbrechung."
+    },
+    {
+      "type": "match",
+      "question": "Was passt zusammen?",
+      "pairs": [
+        [
+          "Aufmerksamkeitsrest",
+          "Gedanken hängen an der alten Aufgabe"
+        ],
+        [
+          "Deep Work",
+          "Lange Phase ohne Wechsel"
+        ],
+        [
+          "Shallow Work",
+          "Kleine Aufgaben, oft unterbrochen"
+        ]
+      ],
+      "explanation": "Jeder Wechsel kostet. Darum lohnt es sich, Kleinkram zu bündeln und tiefe Arbeit am Stück zu machen."
+    },
+    {
+      "type": "insight",
+      "text": "Jeder kurze Wechsel kostet mehr als die Sekunden, die er dauert. Bündle Kleinkram, schütze tiefe Phasen.",
+      "art": "art/aufmerksamkeitsreste-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Leg dein Handy bei der nächsten Lernsession *in einen anderen Raum*. Stell einen Timer auf 45 Minuten. Erst dann wieder ran.",
+      "art": "art/aufmerksamkeitsreste-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Nach Wechseln bleibt ein Aufmerksamkeitsrest.",
+        "Zurückfinden kann lange dauern.",
+        "Kleinkram bündeln, tiefe Phasen schützen."
+      ]
+    }
+  ]
+}

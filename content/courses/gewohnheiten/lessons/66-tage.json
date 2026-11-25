@@ -1,0 +1,99 @@
+{
+  "slug": "66-tage",
+  "title": "Die Wahrheit über 21 Tage",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 3",
+      "heading": "Die Wahrheit über 21 Tage",
+      "art": "art/66-tage-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Überall liest man: In *21 Tagen* wird alles zur Gewohnheit. Klingt gut. Aber woher kommt die Zahl eigentlich?",
+      "art": "art/66-tage-2.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Eine Studie hat das gemessen. Wie viele Tage dauerte es im Mittel, bis eine Handlung automatisch lief?",
+      "unit": "Tage",
+      "min": 0,
+      "max": 120,
+      "step": 1,
+      "answer": 66,
+      "tolerance": 12,
+      "explanation": "Im Mittel 66 Tage (Lally et al., 2010). Die Spanne reichte von 18 bis 254 Tagen, je nach Person und Gewohnheit."
+    },
+    {
+      "type": "story",
+      "text": "Die Kurve ist spannend: Am Anfang steigt die Automatik *schnell*, dann flacht sie ab. Die ersten Wochen bringen am meisten.",
+      "art": "art/66-tage-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Und das Beste: *Einmal auslassen* hat in der Studie kaum geschadet. Wer einen Tag verpasst, startet nicht bei null.",
+      "art": "art/66-tage-5.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Nach genau 21 Tagen ist jede Gewohnheit fest.",
+          "true": false
+        },
+        {
+          "text": "Einfache Gewohnheiten gehen schneller als schwere.",
+          "true": true
+        },
+        {
+          "text": "Ein verpasster Tag macht alles kaputt.",
+          "true": false
+        }
+      ],
+      "explanation": "Ein Glas Wasser zum Frühstück ging bei Teilnehmern schneller als 50 Sit-ups. Und ein Aussetzer war kein Drama."
+    },
+    {
+      "type": "poll",
+      "question": "Was ist dein typisches Muster nach einem verpassten Tag?",
+      "options": [
+        "Direkt weitermachen",
+        "Ein paar Tage Pause",
+        "Ganz aufhören"
+      ],
+      "majority": 1,
+      "note": "Viele lassen nach einem Aussetzer gleich mehrere Tage schleifen. Die Regel der Profis: *nie zweimal hintereinander* auslassen."
+    },
+    {
+      "type": "insight",
+      "text": "Gewohnheiten brauchen eher zwei Monate als drei Wochen. Ein Aussetzer zählt nicht, zwei schon eher.",
+      "art": "art/66-tage-8.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Was solltest du nach einem verpassten Tag tun?",
+      "options": [
+        "Neu bei Tag 1 anfangen",
+        "Am nächsten Tag einfach weitermachen",
+        "Die Gewohnheit aufgeben",
+        "Doppelt so viel machen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Aussetzer kostet kaum Fortschritt. Schädlich ist das Alles-oder-nichts-Denken, das daraus eine lange Pause macht."
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Trag dir in den Kalender einen Termin in *zehn Wochen* ein. Titel: Läuft meine neue Gewohnheit schon automatisch?",
+      "art": "art/66-tage-10.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Nicht 21, sondern im Mittel 66 Tage.",
+        "Die ersten Wochen bringen den größten Sprung.",
+        "Einmal auslassen ist okay, nie zweimal am Stück."
+      ]
+    }
+  ]
+}

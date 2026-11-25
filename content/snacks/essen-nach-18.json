@@ -1,0 +1,28 @@
+{
+  "id": "essen-nach-18",
+  "category": "ernaehrung",
+  "kind": "myth",
+  "sources": [
+    "DGE: Ernährungsmythen",
+    "Hall et al. (2012): Energy balance and its components. American Journal of Clinical Nutrition"
+  ],
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Essen nach 18 Uhr macht automatisch dick.",
+        "true": false
+      },
+      {
+        "text": "Für das Gewicht zählt vor allem die Energiebilanz des Tages.",
+        "true": true
+      },
+      {
+        "text": "Spätes Essen kann bei manchen den Schlaf stören.",
+        "true": true
+      }
+    ],
+    "explanation": "Die Uhrzeit allein macht nicht dick. Entscheidend ist, wie viel du insgesamt isst. Ein schweres Essen direkt vorm Schlafen kann aber den Schlaf beeinträchtigen."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sunk-cost-kino",
+  "kind": "quiz",
+  "card": {
+    "type": "quiz",
+    "kind": "tf",
+    "question": "Stimmt's? Wenn der Film schlecht ist, solltest du bleiben, weil das Ticket bezahlt ist.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct": 1,
+    "explanation": "Das Geld ist so oder so weg. Entscheide nur, wie du die nächsten 90 Minuten nutzen willst. Das ist der Sunk-Cost-Fehler."
+  },
+  "category": "self",
+  "courseRef": "quick-sunk-cost"
+}

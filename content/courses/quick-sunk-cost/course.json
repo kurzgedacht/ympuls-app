@@ -1,0 +1,25 @@
+{
+  "slug": "quick-sunk-cost",
+  "title": "Der Sunk-Cost-Fehler",
+  "subtitle": "Warum wir an Verlorenem festhalten",
+  "category": "self",
+  "format": "quick",
+  "level": 1,
+  "estMinutes": 2,
+  "createdAt": "2026-11-25",
+  "hook": "Du sitzt im schlechten Film, nur weil das Ticket 12 Euro gekostet hat. Dein Gehirn spielt dir einen Streich.",
+  "sources": [
+    "Arkes & Blumer (1985): The psychology of sunk cost. Organizational Behavior and Human Decision Processes 35(1)",
+    "Daniel Kahneman: Thinking, Fast and Slow (2011)",
+    "Staw (1976): Knee-deep in the big muddy. Organizational Behavior and Human Performance"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Quick Read",
+      "lessons": [
+        "sunk-cost"
+      ]
+    }
+  ]
+}
