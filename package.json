@@ -1,0 +1,45 @@
+{
+  "name": "ympuls-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "npm run validate && node scripts/svgo.mjs && tsc -b && vite build",
+    "validate": "tsx scripts/validate.ts",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "preview": "vite preview --host",
+    "art": "tsx scripts/art/build.ts",
+    "assets": "node scripts/gen-icons.mjs"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^14.14.0",
+    "fuse.js": "^7.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "zod": "^4.6.7",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.6.10",
+    "@types/react": "^18.3.32",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.3.0",
+    "autoprefixer": "^10.7.0",
+    "jsdom": "^31.0.1",
+    "postcss": "^8.5.33",
+    "svgo": "^4.1.0",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.1"
+  }
+}

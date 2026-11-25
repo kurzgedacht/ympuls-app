@@ -1,0 +1,72 @@
+/**
+ * Builds content/ from the typed sources in content-src/.
+ * Each card's `art` is an illustration spec (see templates.ts) and becomes art/<lesson>-<n>.svg.
+ * Hand-made SVGs are still possible: put `art: { file: "art/x.svg" }` and drop the file into content-src/assets/<slug>/.
+ */
+import { mkdirSync, readdirSync, rmSync, writeFileSync, existsSync, cpSync } from "node:fs";
+import { join } from "node:path";
+import { pathToFileURL } from "node:url";
+import type { Card, Course, Snack } from "../../src/content/schema";
+import { renderArt, renderCover, type Art } from "./templates";
+import { catBySlug } from "../../src/brand";
+
+type ArtRef = Art | { file: string };
+type WithArt<C> = C extends { art: string } ? Omit<C, "art"> & { art: ArtRef } : C extends { art?: string } ? Omit<C, "art"> & { art?: ArtRef } : C;
+export type SrcCard = WithArt<Card>;
+export type SrcLesson = { slug: string; title: string; cards: SrcCard[] };
+export type SrcSnack = Omit<Snack, "card" | "category" | "courseRef"> & { card: SrcCard; category?: Snack["category"] };
+export type SrcCourse = Omit<Course, "units"> & { cover: string; units: { id: string; title: string; lessons: SrcLesson[] }[]; snacks?: SrcSnack[] };
+export const defineCourse = (c: SrcCourse) => c;
+export const defineSnacks = (s: (SrcSnack & { category: Snack["category"] })[]) => s;
+
+const ROOT = join(import.meta.dirname, "../..");
+const out = (...p: string[]) => join(ROOT, "content", ...p);
+const write = (p: string, data: string | object) => {
+  mkdirSync(join(p, ".."), { recursive: true });
+  writeFileSync(p, typeof data === "string" ? data : JSON.stringify(data, null, 2) + "\n");
+};
+
+function emitCard(card: SrcCard, dir: string, name: string, color: string, assets: string): Card {
+  if (!("art" in card) || !card.art) return card as Card;
+  const a = card.art;
+  if ("file" in a) {
+    cpSync(join(assets, a.file.replace(/^art\//, "")), join(dir, a.file));
+    return card as unknown as Card;
+  }
+  const file = `art/${name}.svg`;
+  write(join(dir, file), renderArt(a, color));
+  return { ...card, art: file } as Card;
+}
+
+async function main() {
+  const only = process.argv[2];
+  const srcDir = join(ROOT, "content-src/courses");
+  const allSnacks: Snack[] = [];
+  const snackDir = out("snacks");
+  for (const f of readdirSync(srcDir).filter((f) => f.endsWith(".ts"))) {
+    const course: SrcCourse = (await import(pathToFileURL(join(srcDir, f)).href)).default;
+    const color = catBySlug[course.category].color;
+    if (!only || only === course.slug) {
+      const dir = out("courses", course.slug);
+      rmSync(dir, { recursive: true, force: true });
+      const assets = join(ROOT, "content-src/assets", course.slug);
+      const { cover, snacks: _s, units, ...meta } = course;
+      write(join(dir, "cover.svg"), renderCover(cover, color));
+      write(join(dir, "course.json"), { ...meta, units: units.map((u) => ({ id: u.id, title: u.title, lessons: u.lessons.map((l) => l.slug) })) });
+      for (const u of units) for (const l of u.lessons) {
+        const cards = l.cards.map((c, i) => emitCard(c, dir, `${l.slug}-${i + 1}`, color, assets));
+        write(join(dir, "lessons", `${l.slug}.json`), { slug: l.slug, title: l.title, cards });
+      }
+    }
+    for (const s of course.snacks ?? []) allSnacks.push({ ...s, category: s.category ?? course.category, courseRef: course.slug, card: s.card as Card });
+  }
+  const extra = join(ROOT, "content-src/snacks.ts");
+  if (existsSync(extra)) allSnacks.push(...((await import(pathToFileURL(extra).href)).default as Snack[]));
+  rmSync(snackDir, { recursive: true, force: true });
+  for (const s of allSnacks) {
+    const card = emitCard(s.card as SrcCard, snackDir, s.id, catBySlug[s.category].color, join(ROOT, "content-src/assets/snacks"));
+    write(join(snackDir, `${s.id}.json`), { ...s, card });
+  }
+  console.log(`built ${readdirSync(srcDir).length} course sources, ${allSnacks.length} snacks`);
+}
+main();

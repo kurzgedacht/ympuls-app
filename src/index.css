@@ -1,0 +1,52 @@
+@font-face { font-family: "Archivo"; font-weight: 800; font-display: swap; src: url("/brand/fonts/archivo-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-weight: 900; font-display: swap; src: url("/brand/fonts/archivo-latin-900-normal.woff2") format("woff2"); }
+@font-face { font-family: "Atkinson Hyperlegible"; font-weight: 400; font-display: swap; src: url("/brand/fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Atkinson Hyperlegible"; font-weight: 700; font-display: swap; src: url("/brand/fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2"); }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: rgb(var(--c-ground)); color: rgb(var(--c-ink));
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  overscroll-behavior: none; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+#root { max-width: 430px; margin: 0 auto; position: relative; overflow: hidden; height: 100dvh; }
+input, textarea, select { font-size: 16px; }
+button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.no-select, .no-select * { user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.scroll { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.scroll::-webkit-scrollbar { display: none; }
+.pt-safe { padding-top: max(env(safe-area-inset-top), 12px); }
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 12px); }
+.kicker { font-family: Archivo, sans-serif; font-weight: 800; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; }
+.title { font-family: Archivo, sans-serif; font-weight: 900; line-height: 1; letter-spacing: -0.01em; }
+.story-text em { color: rgb(var(--c-puls-text)); font-style: italic; }
+
+/* Illustrations: step reveal + dark mode recolouring (images stay on their ice-blue card). */
+.art svg { width: 100%; height: 100%; display: block; }
+.art [data-step] { transition: opacity 250ms ease-out, transform 450ms cubic-bezier(.34,1.56,.64,1); transform-box: fill-box; }
+.art [data-step].hidden-step { opacity: 0; transform: translateY(10px); }
+.dark .art:not(.keep) [fill="#002144"] { fill: #F3F5F8; }
+.dark .art:not(.keep) [stroke="#002144"] { stroke: #F3F5F8; }
+.dark .art:not(.keep) [fill="#FFFFFF"] { fill: #152A49; }
+.dark .art:not(.keep) [fill="#D6DEEA"] { fill: #10223E; }
+.dark .art:not(.keep) [stroke="#FFFFFF"] { stroke: #08142A; }
+
+@keyframes heartbeat { 0%, 40%, 100% { transform: scale(1); } 10% { transform: scale(1.28); } 25% { transform: scale(1.12); } }
+.beat { animation: heartbeat 1.2s ease-in-out infinite; }
+.beat-fast { animation: heartbeat .6s ease-in-out infinite; }
+@keyframes ripple { from { transform: scale(1); opacity: .45; } to { transform: scale(2.4); opacity: 0; } }
+.ripple { animation: ripple 1.2s ease-out infinite; }
+@keyframes shake { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-8px); } 40% { transform: translateX(7px); } 60% { transform: translateX(-5px); } 80% { transform: translateX(3px); } }
+.shake { animation: shake .4s ease-in-out; }
+@keyframes glow { 0%,100% { box-shadow: inset 0 0 24px 4px rgba(209,31,58,.35); } 50% { box-shadow: inset 0 0 44px 10px rgba(209,31,58,.6); } }
+.hochpuls { animation: glow .7s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
