@@ -54,3 +54,18 @@ test("library", async ({ page }) => {
   await page.waitForTimeout(600);
   await shot(page, "collection-open");
 });
+
+test("profile + review + week", async ({ page }) => {
+  await open(page, "/profil");
+  await shot(page, "profile-1");
+  await page.locator(".scroll").first().evaluate((el) => el.scrollBy(0, 700));
+  await page.waitForTimeout(400);
+  await shot(page, "profile-2");
+  await page.locator(".scroll").first().evaluate((el) => el.scrollBy(0, 900));
+  await page.waitForTimeout(400);
+  await shot(page, "profile-3");
+  await open(page, "/wiederholen");
+  await shot(page, "review");
+  await open(page, "/woche");
+  await shot(page, "week");
+});

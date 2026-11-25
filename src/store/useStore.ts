@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { dayKey, berlinHour, emptyStreak, grantWeeklyFreeze, recordActivity, settleStreak, STREAK_MILESTONES, weekKey, type Streak } from "../lib/dates";
+import { addDays, dayKey, berlinHour, emptyStreak, grantWeeklyFreeze, recordActivity, settleStreak, STREAK_MILESTONES, weekKey, type Streak } from "../lib/dates";
 import { levelInfo } from "../lib/levels";
 import { schedule, type SrsItem } from "../lib/srs";
 import { newBadges, rollChest, comboMultiplier, type ChestReward } from "../lib/rewards";
@@ -172,6 +172,8 @@ export const useStore = create<State & Actions>()(
         },
         ensureSaved: (id) => {
           if (!get().saved.some((x) => x.id === id)) get().toggleSave(id);
+          // Saved insights join spaced repetition ("Weißt du es noch?").
+          if (!id.startsWith("s/") && !get().srs[id]) set({ srs: { ...get().srs, [id]: { box: 0, due: addDays(today(), 1) } } });
         },
         toggleBookmark: (slug) => {
           const b = get().bookmarks;
