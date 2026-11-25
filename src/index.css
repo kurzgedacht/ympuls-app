@@ -50,3 +50,9 @@ button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
+
+/* Big estimate slider */
+.estimate-range { -webkit-appearance: none; appearance: none; background: transparent; height: 48px; }
+.estimate-range::-webkit-slider-runnable-track { height: 12px; border-radius: 999px; background: rgb(var(--c-surface-alt)); }
+.estimate-range::-webkit-slider-thumb { -webkit-appearance: none; width: 40px; height: 40px; margin-top: -14px; border-radius: 999px; background: rgb(var(--c-brand)); border: 5px solid #fff; box-shadow: 0 4px 14px rgba(0,33,68,.3); }
+.dark .estimate-range::-webkit-slider-thumb { background: #F3F5F8; border-color: #D11F3A; }

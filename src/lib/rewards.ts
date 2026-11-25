@@ -39,7 +39,7 @@ export const BADGES: { id: string; title: string; desc: string; icon: string; te
   { id: "early-bird", title: "Frühaufsteher", desc: "Vor 8 Uhr gelernt.", icon: "🌅", test: (s) => s.justLearned && s.hour < 8 },
   { id: "night-owl", title: "Nachteule", desc: "Nach 22 Uhr gelernt.", icon: "🦉", test: (s) => s.justLearned && s.hour >= 22 },
   { id: "correct-100", title: "100 Treffer", desc: "100 Fragen richtig beantwortet.", icon: "💯", test: (s) => s.correctTotal >= 100 },
-  { id: "all-cats", title: "Allrounder", desc: "Alle Kategorien probiert.", icon: "🧭", test: (s) => s.categoriesAll > 0 && s.categoriesTried >= s.categoriesAll },
+  { id: "all-cats", title: "Allrounder", desc: "Alle Kategorien probiert.", icon: "🧭", test: (s) => s.categoriesAll >= 5 && s.categoriesTried >= s.categoriesAll },
   { id: "bookworm", title: "Bücherwurm", desc: "5 Buch-Guides fertig.", icon: "📚", test: (s) => s.booksDone >= 5 },
   { id: "perfect-5", title: "Fehlerlos", desc: "5 perfekte Lektionen.", icon: "👑", test: (s) => s.perfectTotal >= 5 },
   { id: "collector", title: "Sammler", desc: "25 Karten gespeichert.", icon: "🗂️", test: (s) => s.savedTotal >= 25 },

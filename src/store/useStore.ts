@@ -35,6 +35,7 @@ export interface State {
   milestones: number[];
   recapWeek: string | null;
   goalDay: string | null;
+  notes: { id: string; text: string; at: number }[];
   settings: Settings;
 }
 interface Actions {
@@ -59,7 +60,7 @@ const emptyDay: DayStat = { sec: 0, snacks: 0, lessons: 0, reviews: 0, correct: 
 export const initialState: State = {
   xp: 0, onboarded: false, tapHintSeen: false, progress: {}, perfect: [], lastCourse: null, bookmarks: [], saved: [], srs: {},
   streak: emptyStreak, days: {}, totals: { lessons: 0, correct: 0, answered: 0, snacks: 0, reviews: 0, maxCombo: 0 }, categoriesTried: [],
-  combo: 0, chestDay: null, boostUntil: 0, badges: {}, collection: [], feedSeen: {}, milestones: [], recapWeek: null, goalDay: null,
+  combo: 0, chestDay: null, boostUntil: 0, badges: {}, collection: [], feedSeen: {}, milestones: [], recapWeek: null, goalDay: null, notes: [],
   settings: { sound: true, haptics: true, theme: "system", goal: 10, favorites: [] },
 };
 
