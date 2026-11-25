@@ -3,7 +3,7 @@
 Persönliche Visual-Microlearning-App fürs iPhone: 2-Minuten-Lektionen in Bildern, ein Wissens-Feed im Reels-Format,
 Quizze und ein Belohnungssystem rund um den roten Puls-Punkt. Instagram-Ersatz, nur dass man danach schlauer ist.
 
-**App:** https://GITHUB_USER.github.io/ympuls-app/
+**App:** https://kurzgedacht.github.io/ympuls-app/
 
 ## Aufs iPhone holen
 1. **Safari** öffnen (nicht Chrome) und die URL oben aufrufen.
