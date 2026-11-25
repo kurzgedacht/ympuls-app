@@ -19,3 +19,12 @@
 - Streak-Schutz: 1 pro Woche automatisch, höchstens 3 gespeichert.
 - Combo: ab 3 richtigen in Folge doppelte Puls, ab 5 „Hochpuls“ (roter Rand). Anzeige 72 bpm + 18 je Treffer.
 - Level-Titel: `src/lib/levels.ts`.
+
+## Feinschliff (Phase 7)
+- **Lighthouse-PWA-Score:** Lighthouse hat die PWA-Kategorie seit Version 12 (2024) entfernt. Stattdessen prüft `e2e/offline.spec.ts`
+  die Installierbarkeit (Manifest standalone, Icons 192/512, Apple-Touch-Icon, Startbildschirme) und den Offline-Start nach dem ersten Besuch.
+- Alle Inhalte (JSON + SVG) stecken im JS-Bundle (~1,4 MB, gzip ~0,3 MB) und werden vom Service Worker vorab geladen. Bewusst kein Code-Splitting: offline zählt mehr als die erste Ladezeit.
+- Reduzierte Bewegung: `MotionConfig reducedMotion="user"`, CSS-Animationen auf 0 ms, Konfetti aus.
+- Zustand v5: Selektoren dürfen keine neuen Objekte/Arrays zurückgeben (`?? []`), sonst Render-Endlosschleife. E2E-Tests prüfen deshalb auf Laufzeitfehler.
+- Feed: Zeit zählt aufs Tagesziel erst ab 10 gesehenen Snacks am Tag (gepuffert), wie §7.2 verlangt. Puls gibt es nur für Antworten, nie fürs Scrollen.
+- Wiederholung: gespeicherte Kerngedanken kommen automatisch in die Spaced Repetition („Weißt du es noch?“, Selbsteinschätzung).

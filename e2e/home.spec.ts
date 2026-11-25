@@ -1,4 +1,9 @@
-import { test, type Page } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
+
+// Fail on any uncaught runtime error (a blank screen still screenshots fine).
+let errors: string[] = [];
+test.beforeEach(({ page }) => { errors = []; page.on("pageerror", (e) => errors.push(e.message)); });
+test.afterEach(async ({ page }) => { expect(errors).toEqual([]); await expect(page.locator("#root")).not.toBeEmpty(); });
 
 // Seeded progress so Today shows the path, chest, review card and the library has saved cards.
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin" }).format(new Date());

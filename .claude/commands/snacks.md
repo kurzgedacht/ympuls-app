@@ -11,3 +11,5 @@ Lieblingskategorien aus den Standardeinstellungen etwas stärker gewichtet).
 - Keine Dopplung mit vorhandenen Snacks (vorher `content/snacks/` durchsehen). Wenn es passt, `courseRef` auf einen bestehenden Kurs setzen.
 - Bilder nach Stilguide (Abschnitt 9), bei Snacks mit 1–2 Schritten.
 - Fakten mit Quelle recherchieren. Danach validate, 4 Stichproben-Screenshots im Feed, Build, Commit `content: add <n> snacks`.
+
+> Technik: Inhalte in `content-src/` schreiben (siehe CLAUDE.md §10, Beispiel `content-src/courses/ausdauer.ts`), dann `npm run art`, `npm run validate`. Bilder per Kontaktbogen prüfen (`npx tsx scripts/art/sheet.ts …`).

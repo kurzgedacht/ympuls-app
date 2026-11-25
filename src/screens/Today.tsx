@@ -117,12 +117,13 @@ function DailyCover({ daily }: { daily: NonNullable<ReturnType<typeof dailyFor>>
   );
 }
 
+const NONE: string[] = []; // stable fallback: a fresh [] inside a selector re-renders forever
 const ZIG = [0, 70, 100, 70, 0, -70, -100, -70];
 function PathSection({ courseSlug }: { courseSlug: string }) {
   const nav = useNavigate();
   const loc = useLocation() as { state?: { justFinished?: string } };
   const course = courseBySlug[courseSlug];
-  const progress = useStore((s) => s.progress[courseSlug] ?? []);
+  const progress = useStore((s) => s.progress[courseSlug]) ?? NONE;
   const perfect = useStore((s) => s.perfect);
   const [open, setOpen] = useState<string | null>(null);
   const cat = catBySlug[course.category];

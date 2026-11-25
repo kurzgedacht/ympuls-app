@@ -12,3 +12,5 @@ Erstelle einen Buch-Guide für die YMPULS.-App zu: $ARGUMENTS
   Die Bilder sind eigene, symbolische Szenen zur jeweiligen Idee.
 - Lektion 3 endet mit „So setzt du es um“: 3 konkrete Schritte für Yannicks Alltag (Training, Studium, Business).
 - Danach wie `/neuer-kurs` ab Schritt 5 (Bilder, Snacks, validate, Screenshots, Selbstcheck, Build, Commit).
+
+> Technik: Inhalte in `content-src/` schreiben (siehe CLAUDE.md §10, Beispiel `content-src/courses/ausdauer.ts`), dann `npm run art`, `npm run validate`. Bilder per Kontaktbogen prüfen (`npx tsx scripts/art/sheet.ts …`).

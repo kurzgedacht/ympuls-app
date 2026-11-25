@@ -250,6 +250,12 @@ Paywall, Account, Werbung, Tracking, Push-Server, Desktop-Layout.
 - Muss bei 350px Breite gut lesbar sein. Im Build per SVGO optimieren.
 
 ## 10. Inhalte erstellen (Yannick tippt nur einen Befehl)
+**Workflow (seit Phase 2):** Kurse werden als typisierte Datei `content-src/courses/<slug>.ts` geschrieben (`defineCourse`), Snacks ohne Kurs in
+`content-src/snacks.ts`. Karten tragen statt eines Dateinamens eine Bild-Spezifikation (`art: { t: "curve" | "compare" | "flow" | … }`,
+siehe `scripts/art/templates.ts`, Icons in `scripts/art/icons.ts`). `npm run art` erzeugt daraus `content/` (JSON + SVG, optimiert).
+Kontaktbogen zum Prüfen der Bilder: `npx tsx scripts/art/sheet.ts content/courses/<slug> /tmp/x.png`. Handgezeichnete SVGs: `art: { file: "art/x.svg" }`
+mit Datei in `content-src/assets/<slug>/`. Tageslektionen liegen direkt als JSON in `content/daily/`.
+
 Befehle in `.claude/commands/`: `/neuer-kurs`, `/kurs-aus-quelle`, `/buch`, `/snacks`, `/tageslektion` (siehe dort).
 Jeder Befehl recherchiert, schreibt, zeichnet, prüft (validate, Screenshots, Selbstcheck nach Abschnitt 6.10), erzeugt Snacks,
 committet und veröffentlicht, falls das schon eingerichtet ist.

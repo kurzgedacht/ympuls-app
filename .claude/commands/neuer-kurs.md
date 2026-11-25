@@ -26,3 +26,5 @@ Arbeite den Ablauf vollständig ohne Rückfragen ab:
    Alles unter 4 überarbeiten.
 10. `npm run build`, Commit `content: add course <slug>`. Wenn die Veröffentlichung eingerichtet ist: pushen.
 11. Antwort an Yannick in höchstens 5 Zeilen: Kurstitel, Anzahl Lektionen, Minuten, das spannendste Aha.
+
+> Technik: Inhalte in `content-src/` schreiben (siehe CLAUDE.md §10, Beispiel `content-src/courses/ausdauer.ts`), dann `npm run art`, `npm run validate`. Bilder per Kontaktbogen prüfen (`npx tsx scripts/art/sheet.ts …`).

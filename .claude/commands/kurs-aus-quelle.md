@@ -12,3 +12,5 @@ Erstelle einen YMPULS.-Kurs aus den Unterlagen unter: $ARGUMENTS
   (match), Abläufe ordnen (order), Studienergebnisse einschätzen (estimate).
 - Auch Uni-Stoff muss Spaß machen: Regeln aus Abschnitt 6 gelten voll.
 - Danach genau wie `/neuer-kurs` ab Schritt 3 weiter (Gliederung, Lektionen, Bilder, Snacks, validate, Screenshots, Selbstcheck, Build, Commit).
+
+> Technik: Inhalte in `content-src/` schreiben (siehe CLAUDE.md §10, Beispiel `content-src/courses/ausdauer.ts`), dann `npm run art`, `npm run validate`. Bilder per Kontaktbogen prüfen (`npx tsx scripts/art/sheet.ts …`).
