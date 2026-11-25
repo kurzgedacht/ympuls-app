@@ -10,7 +10,7 @@
     "test": "vitest run",
     "e2e": "playwright test",
     "preview": "vite preview --host",
-    "art": "tsx scripts/art/build.ts",
+    "art": "tsx scripts/art/build.ts && node scripts/svgo.mjs",
     "assets": "node scripts/gen-icons.mjs"
   },
   "dependencies": {

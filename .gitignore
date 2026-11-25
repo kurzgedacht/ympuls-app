@@ -4,3 +4,5 @@ screenshots
 test-results
 playwright-report
 .DS_Store
+# iCloud conflict copies
+* [0-9].*
