@@ -1,0 +1,11 @@
+{
+  "id": "schwache-kontakte",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "Neue Jobs und Kunden kommen oft über *lose Bekannte*, nicht über beste Freunde. Soziologen nennen das die Stärke schwacher Bindungen.",
+    "art": "art/schwache-kontakte.svg"
+  },
+  "category": "business",
+  "courseRef": "erste-kunden"
+}

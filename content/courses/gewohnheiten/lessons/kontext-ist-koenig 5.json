@@ -1,0 +1,80 @@
+{
+  "slug": "kontext-ist-koenig",
+  "title": "Kontext ist König",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 2",
+      "heading": "Kontext ist König",
+      "art": "art/kontext-ist-koenig-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Im Urlaub fällt es plötzlich leicht, das Handy wegzulegen. Zu Hause greifst du wieder sofort danach. *Warum eigentlich?*",
+      "art": "art/kontext-ist-koenig-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Gewohnheiten hängen an *Auslösern*: ein Ort, eine Uhrzeit, ein Gefühl, eine Handlung davor. Der Kontext drückt den Knopf, nicht dein Wille.",
+      "art": "art/kontext-ist-koenig-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Darum klappen Vorsätze oft nicht. Du willst anders handeln, aber dein *Umfeld ist gleich geblieben*. Und das Umfeld gewinnt meistens.",
+      "art": "art/kontext-ist-koenig-4.svg"
+    },
+    {
+      "type": "match",
+      "question": "Welcher Auslöser startet welche Gewohnheit?",
+      "pairs": [
+        [
+          "Wecker klingelt",
+          "Handy checken"
+        ],
+        [
+          "Training vorbei",
+          "Shake trinken"
+        ],
+        [
+          "Langeweile in der Bahn",
+          "Social Media öffnen"
+        ]
+      ],
+      "explanation": "Fast jede Gewohnheit hat einen festen Auslöser. Wer ihn kennt, kann ihn verändern oder bewusst nutzen."
+    },
+    {
+      "type": "story",
+      "text": "Gute Nachricht: Ein Umzug, ein neuer Job, ein neues Semester. Forscher sehen solche *Neustarts* als Chance, weil alte Auslöser wegfallen.",
+      "art": "art/kontext-ist-koenig-6.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Wer Gewohnheiten ändern will, sollte vor allem sein Umfeld anpassen.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 0,
+      "explanation": "Umfeld schlägt Willenskraft. Sportsachen bereitlegen, Handy in einen anderen Raum: Kleine Änderungen am Kontext wirken stärker als gute Vorsätze."
+    },
+    {
+      "type": "insight",
+      "text": "Ändere nicht nur dein Verhalten. Ändere den Ort, an dem es passiert.",
+      "art": "art/kontext-ist-koenig-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Leg heute Abend dein Handy *außerhalb vom Schlafzimmer* zum Laden. Ein Wecker tut es auch.",
+      "art": "art/kontext-ist-koenig-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Gewohnheiten hängen an Auslösern im Kontext.",
+        "Das Umfeld gewinnt meist gegen Vorsätze.",
+        "Neustarts sind gute Momente für neue Gewohnheiten."
+      ]
+    }
+  ]
+}

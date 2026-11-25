@@ -1,0 +1,40 @@
+{
+  "slug": "protein",
+  "title": "Protein & Muskelaufbau",
+  "subtitle": "Wie viel, wann, woher",
+  "category": "ernaehrung",
+  "format": "course",
+  "level": 1,
+  "estMinutes": 14,
+  "createdAt": "2026-11-25",
+  "hook": "Das legendäre anabole Fenster ist eher ein Scheunentor. Was wirklich zählt, ist viel simpler.",
+  "sources": [
+    "Morton et al. (2018): A systematic review, meta-analysis and meta-regression of protein supplementation. British Journal of Sports Medicine 52",
+    "Schoenfeld, Aragon & Krieger (2013): The effect of protein timing on muscle strength and hypertrophy. JISSN 10:53",
+    "Schoenfeld & Aragon (2018): How much protein can the body use in a single meal? JISSN 15:10",
+    "Trommelen et al. (2023): The anabolic response to protein ingestion during recovery from exercise has no upper limit. Cell Reports Medicine",
+    "Hevia-Larraín et al. (2021): High-protein plant-based diet versus omnivorous diet to support resistance training adaptations. Sports Medicine",
+    "Devries et al. (2018): Changes in kidney function do not differ between healthy adults consuming higher- compared with lower-protein diets. Journal of Nutrition",
+    "Deutsche Gesellschaft für Ernährung: Referenzwerte Protein (dge.de)"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Die Grundlagen",
+      "lessons": [
+        "baustoff-muskel",
+        "wie-viel-protein",
+        "verteilen"
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Mythen und Praxis",
+      "lessons": [
+        "anaboles-fenster",
+        "pflanze-oder-tier",
+        "protein-tag"
+      ]
+    }
+  ]
+}

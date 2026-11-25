@@ -1,0 +1,17 @@
+{
+  "id": "autopilot-43",
+  "kind": "quiz",
+  "card": {
+    "type": "estimate",
+    "question": "Wie viel Prozent deiner Alltagshandlungen sind Gewohnheiten?",
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "answer": 43,
+    "tolerance": 10,
+    "explanation": "Rund 43 % laut Tagebuchstudien von Wendy Wood. Fast die Hälfte läuft auf Autopilot."
+  },
+  "category": "self",
+  "courseRef": "gewohnheiten"
+}

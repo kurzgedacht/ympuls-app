@@ -1,0 +1,72 @@
+{
+  "slug": "zone-2",
+  "title": "Zone 2: Langsam macht schnell",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 2",
+      "heading": "Zone 2: Langsam macht schnell",
+      "art": "art/zone-2-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Du läufst jedes Mal so schnell du kannst. Danach bist du platt, aber *wirst kaum besser*. Kommt dir das bekannt vor?",
+      "art": "art/zone-2-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Trainer teilen Belastung in *fünf Zonen* ein, meist nach Prozent deines Maximalpulses. Zone 1 ist Spazieren, Zone 5 ist Vollgas.",
+      "art": "art/zone-2-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Zone 2 liegt etwa bei *60 bis 70 %* deines Maximalpulses. Das Gefühl: Du könntest dich in ganzen Sätzen unterhalten. Ohne zu keuchen.",
+      "art": "art/zone-2-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Hier passiert der Umbau: mehr *Mitochondrien*, also Kraftwerke in den Muskelzellen. Mehr Kapillaren, ein stärkeres Herz. Ohne dich zu zerstören.",
+      "art": "art/zone-2-5.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Die Faustformel 220 minus Alter schätzt den Maximalpuls. Wie viele Schläge kann sie bei einzelnen Menschen danebenliegen?",
+      "unit": "± bpm",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "answer": 10,
+      "tolerance": 4,
+      "explanation": "Etwa 10 bis 12 Schläge in beide Richtungen sind normal. Für dich persönlich ist ein gemessener Wert, etwa aus einem harten Test, besser."
+    },
+    {
+      "type": "quiz",
+      "kind": "compare",
+      "question": "Was baut deine Grundlagenausdauer besser auf?",
+      "options": [
+        "45 Min locker in Zone 2",
+        "20 Min Vollgas"
+      ],
+      "correct": 0,
+      "explanation": "Beides hat seinen Platz. Aber die Basis entsteht in vielen lockeren Minuten. Vollgas jeden Tag erschöpft, ohne die Grundlage zu vergrößern."
+    },
+    {
+      "type": "insight",
+      "text": "Die meisten laufen ihre lockeren Läufe zu schnell. Langsam bauen, schnell ernten.",
+      "art": "art/zone-2-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Beim nächsten Lauf oder auf dem Rennrad, sprich einen *ganzen Satz* laut. Klappt es nicht? Dann bremsen.",
+      "art": "art/zone-2-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Fünf Zonen, meist nach Prozent des Maximalpulses.",
+        "Zone 2: etwa 60 bis 70 %, Reden geht noch.",
+        "Hier wächst deine Grundlage: Kraftwerke und Herz."
+      ]
+    }
+  ]
+}

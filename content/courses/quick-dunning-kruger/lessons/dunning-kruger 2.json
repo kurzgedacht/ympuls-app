@@ -1,0 +1,88 @@
+{
+  "slug": "dunning-kruger",
+  "title": "Der Dunning-Kruger-Effekt",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Quick Read",
+      "heading": "Der Dunning-Kruger-Effekt",
+      "art": "art/dunning-kruger-1.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "In der Originalstudie lagen die schwächsten Teilnehmer etwa beim 12. Perzentil. Wo schätzten sie sich selbst ein?",
+      "unit": "Perzentil",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "answer": 62,
+      "tolerance": 10,
+      "explanation": "Etwa beim 62. Perzentil, also besser als die Mehrheit. Das war die Kernbeobachtung von Kruger und Dunning 1999."
+    },
+    {
+      "type": "story",
+      "text": "Die Erklärung der Forscher: Wer wenig weiß, dem fehlt *genau das Wissen*, um die eigenen Fehler zu erkennen. Ein doppeltes Problem.",
+      "art": "art/dunning-kruger-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Im Netz kursiert dazu eine Kurve mit *Mount Stupid* und Tal der Verzweiflung. Die stammt aber *nicht aus der Studie*. Sie ist ein Meme.",
+      "art": "art/dunning-kruger-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Was die Forschung heute sagt: Ein Teil des Effekts ist ein *Statistik-Artefakt*. Auch mit Zufallszahlen entsteht ein ähnliches Muster. Der Kern bleibt: Selbsteinschätzung ist ungenau.",
+      "art": "art/dunning-kruger-5.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Die Mount-Stupid-Kurve stammt aus der Originalstudie.",
+          "true": false
+        },
+        {
+          "text": "Schwache Teilnehmer überschätzten sich in der Studie deutlich.",
+          "true": true
+        },
+        {
+          "text": "Experten unterschätzen sich manchmal leicht.",
+          "true": true
+        }
+      ],
+      "explanation": "In der Studie lagen die Besten mit ihrer Einschätzung leicht zu tief. Die berühmte Kurve wurde später dazuerfunden."
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Was hilft am besten gegen Selbstüberschätzung?",
+      "options": [
+        "Mehr Selbstvertrauen",
+        "Ehrliches Feedback und messbare Tests",
+        "Nur mit Anfängern vergleichen",
+        "Nichts Neues lernen"
+      ],
+      "correct": 1,
+      "explanation": "Objektive Rückmeldung, etwa Zeiten im Training, Klausurnoten oder Kundenreaktionen, korrigiert das Bauchgefühl."
+    },
+    {
+      "type": "insight",
+      "text": "Dein Gefühl für dein Können ist unzuverlässig. Miss es lieber, als es zu schätzen.",
+      "art": "art/dunning-kruger-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Schätz vor deinem nächsten Lauf oder Test *dein Ergebnis*. Schreib es auf. Vergleich hinterher. Wie gut liegst du?",
+      "art": "art/dunning-kruger-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Schwache überschätzten sich in der Studie stark.",
+        "Die Mount-Stupid-Kurve ist ein Meme.",
+        "Teile des Effekts sind Statistik, Messen hilft."
+      ]
+    }
+  ]
+}

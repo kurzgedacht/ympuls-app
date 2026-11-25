@@ -1,0 +1,39 @@
+{
+  "slug": "ausdauer",
+  "title": "Ausdauer verstehen",
+  "subtitle": "VO2max, Zonen, HRV",
+  "category": "sport",
+  "format": "course",
+  "level": 2,
+  "estMinutes": 14,
+  "createdAt": "2026-11-25",
+  "hook": "Profis trainieren meistens so langsam, dass sie sich dabei unterhalten könnten. Und werden genau dadurch schnell.",
+  "sources": [
+    "Seiler (2010): What is best practice for training intensity and duration distribution in endurance athletes? IJSPP 5(3)",
+    "Stöggl & Sperlich (2014): Polarized training has greater impact on key endurance variables. Frontiers in Physiology",
+    "Mandsager et al. (2018): Association of cardiorespiratory fitness with long-term mortality. JAMA Network Open",
+    "Tanaka, Monahan & Seals (2001): Age-predicted maximal heart rate revisited. JACC 37(1)",
+    "Plews et al. (2013): Training adaptation and heart rate variability in elite endurance athletes. Sports Medicine",
+    "Bompa & Haff: Periodization – Theory and Methodology of Training (Superkompensations-Modell)"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Dein Motor",
+      "lessons": [
+        "vo2max",
+        "zone-2",
+        "80-20"
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Erholung messen und nutzen",
+      "lessons": [
+        "hrv",
+        "superkompensation",
+        "ausdauer-baukasten"
+      ]
+    }
+  ]
+}

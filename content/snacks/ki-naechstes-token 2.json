@@ -1,0 +1,11 @@
+{
+  "id": "ki-naechstes-token",
+  "kind": "fact",
+  "card": {
+    "type": "story",
+    "text": "ChatGPT schreibt jede Antwort *Wortstück für Wortstück*. Bei jedem Schritt berechnet es, welches Stück am wahrscheinlichsten passt.",
+    "art": "art/ki-naechstes-token.svg"
+  },
+  "category": "technik",
+  "courseRef": "ki-sprachmodelle"
+}

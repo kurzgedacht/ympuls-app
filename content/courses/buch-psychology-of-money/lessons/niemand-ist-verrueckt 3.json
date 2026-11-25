@@ -1,0 +1,77 @@
+{
+  "slug": "niemand-ist-verrueckt",
+  "title": "Niemand ist verrückt",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 1",
+      "heading": "Niemand ist verrückt",
+      "art": "art/niemand-ist-verrueckt-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Deine Oma bunkert Bargeld im Schrank. Dein Kumpel steckt alles in Krypto. Beide halten den anderen für *verrückt*. Housel sagt: Keiner ist es.",
+      "art": "art/niemand-ist-verrueckt-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Jeder Mensch entscheidet über Geld auf Basis *seiner eigenen Erfahrungen*. Wer eine Krise erlebt hat, tickt anders als jemand, der nur Boom kennt.",
+      "art": "art/niemand-ist-verrueckt-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Was die Forschung dazu sagt: Ökonomen fanden, dass Menschen, die *in jungen Jahren* schlechte Börsenjahre erlebten, später seltener Aktien kaufen. Erfahrung prägt Risiko.",
+      "art": "art/niemand-ist-verrueckt-4.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Warum treffen Menschen so unterschiedliche Geldentscheidungen?",
+      "options": [
+        "Weil manche dumm sind",
+        "Weil ihre Erfahrungen sie unterschiedlich geprägt haben",
+        "Weil nur Experten es richtig machen",
+        "Weil Geld rein logisch ist"
+      ],
+      "correct": 1,
+      "explanation": "Housels Punkt: Was dir verrückt vorkommt, ergibt aus der Erfahrung des anderen oft Sinn. Geld ist mehr Psychologie als Mathe."
+    },
+    {
+      "type": "story",
+      "text": "Darum rät er: Sei lieber *vernünftig* als perfekt rational. Ein Plan, mit dem du nachts gut schläfst, schlägt den optimalen Plan, den du in Panik abbrichst.",
+      "art": "art/niemand-ist-verrueckt-6.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Gute Geldentscheidungen hängen vor allem von Intelligenz ab.",
+          "true": false
+        },
+        {
+          "text": "Persönliche Erfahrungen prägen das Risikoverhalten.",
+          "true": true
+        },
+        {
+          "text": "Ein Plan, den du durchhältst, schlägt einen perfekten, den du abbrichst.",
+          "true": true
+        }
+      ],
+      "explanation": "Verhalten schlägt Wissen. Wer cool bleibt, gewinnt oft gegen Schlaue, die in Panik verkaufen."
+    },
+    {
+      "type": "insight",
+      "text": "Beim Geld zählt Verhalten mehr als Intelligenz. Sei vernünftig statt perfekt.",
+      "art": "art/niemand-ist-verrueckt-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Jeder handelt aus seinen Erfahrungen heraus.",
+        "Krisen in der Jugend prägen das Risikoverhalten.",
+        "Vernünftig schlägt perfekt rational."
+      ]
+    }
+  ]
+}

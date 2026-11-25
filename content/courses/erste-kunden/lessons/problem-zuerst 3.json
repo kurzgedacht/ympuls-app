@@ -1,0 +1,77 @@
+{
+  "slug": "problem-zuerst",
+  "title": "Das Problem zuerst",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 1",
+      "heading": "Das Problem zuerst",
+      "art": "art/problem-zuerst-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Du hast ein Trainingsangebot gebaut. Website, Logo, Preise. Nach drei Monaten: *null Kunden*. Das Angebot ist gut. Was lief schief?",
+      "art": "art/problem-zuerst-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Meistens das: Es wurde eine *Lösung* gebaut, bevor jemand das Problem bestätigt hat. Menschen kaufen keine Produkte. Sie kaufen weniger Schmerz.",
+      "art": "art/problem-zuerst-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Ein gutes Problem ist *häufig, teuer oder nervig*. Und die Leute versuchen schon, es zu lösen. Mit Excel, YouTube oder einem Kumpel.",
+      "art": "art/problem-zuerst-4.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Echtes Problem oder nur nett? Rechts für echtes Problem.",
+      "statements": [
+        {
+          "text": "Läufer mit Knieschmerzen vor dem Halbmarathon.",
+          "true": true
+        },
+        {
+          "text": "Leute, die Sport schon ganz okay finden.",
+          "true": false
+        },
+        {
+          "text": "Selbstständige, die jedes Jahr Steuerstress haben.",
+          "true": true
+        }
+      ],
+      "explanation": "Schmerz, Termin, Geld: Wenn etwas davon im Spiel ist, ist das Problem echt. Nett-zu-haben verkauft sich schwer."
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Woran erkennst du am besten, dass ein Problem echt ist?",
+      "options": [
+        "Freunde finden die Idee super",
+        "Leute geben schon Zeit oder Geld aus, um es zu lösen",
+        "Es gibt keine Konkurrenz",
+        "Du hast es selbst erfunden"
+      ],
+      "correct": 1,
+      "explanation": "Verhalten schlägt Meinung. Wer schon Workarounds bezahlt, hat ein echtes Problem. Komplimente von Freunden kosten nichts."
+    },
+    {
+      "type": "insight",
+      "text": "Verlieb dich ins Problem, nicht in deine Lösung. Kunden kaufen weniger Schmerz, kein Produkt.",
+      "art": "art/problem-zuerst-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Schreib *drei Probleme* deiner Wunschkunden auf. Hinter jedes: Was tun sie heute schon dagegen?",
+      "art": "art/problem-zuerst-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Erst das Problem prüfen, dann bauen.",
+        "Gute Probleme: häufig, teuer oder nervig.",
+        "Wer schon Workarounds nutzt, hat echten Bedarf."
+      ]
+    }
+  ]
+}

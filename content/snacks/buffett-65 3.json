@@ -1,0 +1,17 @@
+{
+  "id": "buffett-65",
+  "kind": "quote-idea",
+  "card": {
+    "type": "estimate",
+    "question": "Welcher Anteil von Buffetts Vermögen entstand nach seinem 65. Geburtstag? (laut Morgan Housel)",
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "answer": 96,
+    "tolerance": 8,
+    "explanation": "Rund 96 %. Nicht nur Können, sondern vor allem Zeit hat ihn so reich gemacht."
+  },
+  "category": "buecher",
+  "courseRef": "buch-psychology-of-money"
+}

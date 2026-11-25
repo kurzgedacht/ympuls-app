@@ -1,0 +1,74 @@
+{
+  "slug": "wenn-dann",
+  "title": "Der Wenn-Dann-Trick",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 4",
+      "heading": "Der Wenn-Dann-Trick",
+      "art": "art/wenn-dann-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Zwei Studis wollen mehr lernen. Einer sagt: *Ich lerne mehr.* Der andere: *Wenn ich aus der Mensa komme, lerne ich 30 Minuten in der Bib.* Wer schafft es?",
+      "art": "art/wenn-dann-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Der zweite. Psychologen nennen das *Implementation Intention*, also einen Durchführungsplan. Du legst vorher fest: wann, wo, was.",
+      "art": "art/wenn-dann-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine Meta-Analyse mit fast *100 Studien* fand einen deutlichen Effekt. Der Plan nimmt dir die Entscheidung im Moment ab. Der Auslöser übernimmt.",
+      "art": "art/wenn-dann-4.svg"
+    },
+    {
+      "type": "order",
+      "question": "Bau einen guten Wenn-Dann-Plan. Was kommt in welche Reihenfolge?",
+      "items": [
+        "Wenn",
+        "ich nach dem Training dusche,",
+        "dann",
+        "trinke ich einen Proteinshake."
+      ],
+      "explanation": "Erst der konkrete Auslöser, dann die konkrete Handlung. Je genauer der Auslöser, desto besser wirkt der Plan."
+    },
+    {
+      "type": "story",
+      "text": "Noch stärker: *Habit Stacking*. Du hängst die neue Gewohnheit an eine, die schon sitzt. Nach dem Zähneputzen: zehn Liegestütze.",
+      "art": "art/wenn-dann-6.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welcher Plan ist am besten formuliert?",
+      "options": [
+        "Ich will fitter werden.",
+        "Ich gehe öfter laufen.",
+        "Wenn ich montags heimkomme, ziehe ich sofort die Laufschuhe an.",
+        "Ab nächster Woche mache ich Sport."
+      ],
+      "correct": 2,
+      "explanation": "Nur der dritte Plan hat einen klaren Auslöser (montags, heimkommen) und eine klare erste Handlung (Schuhe an)."
+    },
+    {
+      "type": "insight",
+      "text": "Wenn X passiert, dann tue ich Y. Ein konkreter Plan schlägt jeden guten Vorsatz.",
+      "art": "art/wenn-dann-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Schreib jetzt einen Satz auf. *Wenn ich …, dann …* Für genau eine Sache, die du ab morgen machen willst.",
+      "art": "art/wenn-dann-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Wenn-Dann-Pläne wirken deutlich besser als Vorsätze.",
+        "Der Auslöser muss konkret sein: Zeit, Ort, Handlung.",
+        "Habit Stacking: Neues an Bestehendes hängen."
+      ]
+    }
+  ]
+}

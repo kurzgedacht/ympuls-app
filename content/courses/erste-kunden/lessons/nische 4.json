@@ -1,0 +1,69 @@
+{
+  "slug": "nische",
+  "title": "Klein ist mächtig: deine Nische",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 3",
+      "heading": "Klein ist mächtig: deine Nische",
+      "art": "art/nische-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "„Ich mache Personal Training für alle.“ Klingt nach vielen Kunden. In Wahrheit fühlt sich *niemand angesprochen*.",
+      "art": "art/nische-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Vergleich: „Lauftraining für Studis, die ihren *ersten Halbmarathon* schaffen wollen.“ Wer das liest und gemeint ist, denkt sofort: Das bin ich!",
+      "art": "art/nische-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine Nische macht alles *einfacher*: Du weißt, wo deine Kunden sind, welche Wörter sie benutzen und was sie nervt. Werbung wird präziser, Empfehlungen auch.",
+      "art": "art/nische-4.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welche Positionierung ist am stärksten?",
+      "options": [
+        "Coaching für alle, die fitter werden wollen",
+        "Fitness und Gesundheit für jeden",
+        "Krafttraining für Torhüter im Amateurfußball",
+        "Sport macht Spaß"
+      ],
+      "correct": 2,
+      "explanation": "Je spezifischer, desto stärker. Ein Torhüter im Amateurfußball fühlt sich sofort gemeint. Eine breite Nachricht geht im Rauschen unter."
+    },
+    {
+      "type": "order",
+      "question": "Mach die Zielgruppe Schritt für Schritt schärfer.",
+      "items": [
+        "Sportler",
+        "Läufer",
+        "Studierende Läufer",
+        "Studis vor dem ersten Halbmarathon"
+      ],
+      "explanation": "Jede Stufe macht klarer, wer gemeint ist. Später kannst du immer noch breiter werden. Starten ist in der Nische leichter."
+    },
+    {
+      "type": "insight",
+      "text": "Eine kleine, klare Nische schlägt eine große, vage Zielgruppe. Spezifisch ist leichter zu verkaufen.",
+      "art": "art/nische-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Vervollständige den Satz: *Ich helfe [wem] bei [welchem Problem], damit [Ergebnis].* Je genauer, desto besser.",
+      "art": "art/nische-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Für alle heißt für niemanden.",
+        "Eine scharfe Nische macht Marketing leichter.",
+        "Formel: Ich helfe wem, wobei, damit was."
+      ]
+    }
+  ]
+}

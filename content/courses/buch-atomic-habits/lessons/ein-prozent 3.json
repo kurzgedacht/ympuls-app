@@ -1,0 +1,69 @@
+{
+  "slug": "ein-prozent",
+  "title": "Ein Prozent besser",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 1",
+      "heading": "Ein Prozent besser",
+      "art": "art/ein-prozent-1.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Du wirst jeden Tag 1 % besser. Wie viel besser bist du nach einem Jahr? (Faktor)",
+      "unit": "×",
+      "min": 1,
+      "max": 60,
+      "step": 1,
+      "answer": 38,
+      "tolerance": 8,
+      "explanation": "1,01 hoch 365 ergibt rund 37,8. Umgekehrt: 1 % schlechter pro Tag lässt fast nichts übrig, etwa 0,03. Kleine Schritte summieren sich gewaltig."
+    },
+    {
+      "type": "story",
+      "text": "Die Kernidee des Buchs: Erfolg kommt selten aus *einem großen Moment*. Er kommt aus winzigen Gewohnheiten, die sich wie Zinsen aufaddieren.",
+      "art": "art/ein-prozent-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Das Gemeine: Am Anfang *siehst du nichts*. Wie Eis bei minus vier Grad. Du heizt auf minus drei, minus zwei. Nichts passiert. Bei null schmilzt es.",
+      "art": "art/ein-prozent-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Clear nennt diese Phase das *Tal der Enttäuschung*: Du erwartest lineare Fortschritte, bekommst aber erst mal fast keine. Genau hier hören die meisten auf.",
+      "art": "art/ein-prozent-5.svg"
+    },
+    {
+      "type": "story",
+      "text": "Was die Forschung dazu sagt: Die 1-%-Rechnung ist ein *Bild*, keine Messung. Echter Fortschritt verläuft holpriger. Aber dass kleine, stabile Gewohnheiten viel bewirken, ist gut belegt.",
+      "art": "art/ein-prozent-6.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Warum hören viele Menschen bei neuen Gewohnheiten zu früh auf?",
+      "options": [
+        "Weil Gewohnheiten nicht wirken",
+        "Weil Ergebnisse erst verzögert sichtbar werden",
+        "Weil 1 % zu viel ist",
+        "Weil sie zu schnell Erfolg haben"
+      ],
+      "correct": 1,
+      "explanation": "Ergebnisse hinken dem Einsatz hinterher. Wer das weiß, hält das Tal der Enttäuschung besser aus."
+    },
+    {
+      "type": "insight",
+      "text": "Ergebnisse sind die verzögerte Quittung deiner Gewohnheiten. Bleib im Tal, die Kurve kommt.",
+      "art": "art/ein-prozent-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "1 % pro Tag ergibt über ein Jahr rund 38-fach.",
+        "Erst kommt das Tal der Enttäuschung.",
+        "Die Rechnung ist ein Bild, die Richtung stimmt."
+      ]
+    }
+  ]
+}

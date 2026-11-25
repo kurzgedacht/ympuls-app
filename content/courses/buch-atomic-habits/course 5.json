@@ -1,0 +1,29 @@
+{
+  "slug": "buch-atomic-habits",
+  "title": "Atomic Habits",
+  "subtitle": "Kleine Gewohnheiten, große Wirkung",
+  "author": "James Clear",
+  "category": "buecher",
+  "format": "book",
+  "level": 1,
+  "estMinutes": 7,
+  "createdAt": "2026-11-25",
+  "hook": "Ein Prozent besser pro Tag klingt nach nichts. Über ein Jahr ist es ein anderes Leben.",
+  "sources": [
+    "James Clear: Atomic Habits (2018), deutsch: Die 1%-Methode",
+    "Lally et al. (2010): How are habits formed. European Journal of Social Psychology",
+    "Wood & Rünger (2016): Psychology of Habit. Annual Review of Psychology 67",
+    "Rezensionen und Interviews mit James Clear (jamesclear.com)"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Die Kernideen",
+      "lessons": [
+        "ein-prozent",
+        "vier-gesetze",
+        "identitaet"
+      ]
+    }
+  ]
+}

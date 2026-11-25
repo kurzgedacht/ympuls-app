@@ -1,0 +1,25 @@
+{
+  "id": "gewohnheit-66-tage",
+  "kind": "myth",
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Eine Gewohnheit sitzt nach genau 21 Tagen.",
+        "true": false
+      },
+      {
+        "text": "Im Mittel dauerte es in einer Studie 66 Tage.",
+        "true": true
+      },
+      {
+        "text": "Ein verpasster Tag wirft dich auf null zurück.",
+        "true": false
+      }
+    ],
+    "explanation": "Lally et al. (2010): Median 66 Tage, Spanne 18 bis 254. Einzelne Aussetzer schadeten kaum."
+  },
+  "category": "self",
+  "courseRef": "gewohnheiten"
+}

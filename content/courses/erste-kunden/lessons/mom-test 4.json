@@ -1,0 +1,98 @@
+{
+  "slug": "mom-test",
+  "title": "Der Mom Test",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 2",
+      "heading": "Der Mom Test",
+      "art": "art/mom-test-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Du fragst deine Mutter: *Würdest du meine App kaufen?* Sie sagt: Klar, Schatz! Das Problem: Diese Antwort ist komplett wertlos.",
+      "art": "art/mom-test-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Menschen sind höflich. Fragen über die *Zukunft* bringen nette Lügen. Der Autor Rob Fitzpatrick nennt seine Lösung den Mom Test: Frag nach Vergangenem.",
+      "art": "art/mom-test-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Statt *Würdest du zahlen?* fragst du: Wann hattest du das Problem zuletzt? Was hast du dagegen getan? Was hat das gekostet?",
+      "art": "art/mom-test-4.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Gute Mom-Test-Frage? Rechts für ja.",
+      "statements": [
+        {
+          "text": "Fändest du ein Lauf-Coaching cool?",
+          "true": false
+        },
+        {
+          "text": "Wie hast du dich auf deinen letzten Lauf vorbereitet?",
+          "true": true
+        },
+        {
+          "text": "Würdest du 50 € im Monat zahlen?",
+          "true": false
+        },
+        {
+          "text": "Was hast du schon ausprobiert, das nicht geklappt hat?",
+          "true": true
+        }
+      ],
+      "explanation": "Gute Fragen drehen sich um echtes, vergangenes Verhalten. Hypothetische Fragen über die Zukunft bringen höfliche, aber falsche Antworten."
+    },
+    {
+      "type": "match",
+      "question": "Mach aus der schwachen Frage eine starke.",
+      "pairs": [
+        [
+          "Würdest du das nutzen?",
+          "Wie löst du das heute?"
+        ],
+        [
+          "Ist das eine gute Idee?",
+          "Wann ist dir das zuletzt passiert?"
+        ],
+        [
+          "Würdest du dafür zahlen?",
+          "Hast du schon mal Geld dafür ausgegeben?"
+        ]
+      ],
+      "explanation": "Jede Zukunftsfrage hat ein Gegenstück aus der Vergangenheit. Das liefert Fakten statt Freundlichkeit."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Wenn viele sagen „Coole Idee!“, ist das ein gutes Zeichen.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Komplimente sind Rauschen. Ein echtes Signal ist, wenn jemand Zeit, Geld oder einen Kontakt investiert."
+    },
+    {
+      "type": "insight",
+      "text": "Frag nach der Vergangenheit, nicht nach der Zukunft. Verhalten lügt seltener als Meinungen.",
+      "art": "art/mom-test-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Führe diese Woche *ein* Gespräch mit einem möglichen Kunden. Kein Pitch. Nur drei Fragen über das, was er zuletzt getan hat.",
+      "art": "art/mom-test-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Zukunftsfragen bringen höfliche Lügen.",
+        "Frag nach dem letzten Mal und dem Verhalten.",
+        "Echtes Signal: Zeit, Geld oder Kontakte."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "80-20",
+  "title": "Die 80/20-Formel der Profis",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 3",
+      "heading": "Die 80/20-Formel der Profis",
+      "art": "art/80-20-1.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Welcher Anteil der Einheiten von Spitzen-Ausdauerathleten ist locker?",
+      "unit": "%",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "answer": 80,
+      "tolerance": 10,
+      "explanation": "Rund 80 %. Das hat der Sportwissenschaftler Stephen Seiler bei Ruderern, Läufern und Langläufern immer wieder gefunden."
+    },
+    {
+      "type": "story",
+      "text": "Nur etwa *jede fünfte Einheit* ist hart. Dazwischen fast nichts im mittleren Bereich. Experten nennen das polarisiertes Training.",
+      "art": "art/80-20-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Die meisten Freizeitsportler machen es anders: alles *mittelhart*. Zu schnell für echte Erholung, zu langsam für echten Reiz. Die graue Zone.",
+      "art": "art/80-20-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Warum es funktioniert: Lockeres Training baut die Basis, ohne zu ermüden. So hast du *frische Beine* für die wenigen harten Einheiten. Und die sitzen dann richtig.",
+      "art": "art/80-20-5.svg"
+    },
+    {
+      "type": "match",
+      "question": "Welche Einheit gehört wohin?",
+      "pairs": [
+        [
+          "Locker",
+          "Langer Lauf, Reden geht"
+        ],
+        [
+          "Hart",
+          "Intervalle 4 × 4 Minuten"
+        ],
+        [
+          "Graue Zone",
+          "Jeden Tag zügiges Tempo"
+        ]
+      ],
+      "explanation": "Locker und hart sind bewusste Werkzeuge. Die graue Zone ist meist kein Plan, sondern Gewohnheit."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Wer schneller werden will, sollte jede Einheit hart trainieren.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Studien zum polarisierten Training zeigen: Viel locker plus wenig hart bringt oft mehr als ständig mittelhart. Und das Verletzungsrisiko sinkt."
+    },
+    {
+      "type": "insight",
+      "text": "Mach deine lockeren Tage wirklich locker und deine harten wirklich hart. Meide die graue Zone.",
+      "art": "art/80-20-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Zähl deine letzten zehn Einheiten. *Wie viele* waren wirklich locker? Wenn es unter acht sind, weißt du, was zu tun ist.",
+      "art": "art/80-20-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Profis: rund 80 % locker, 20 % hart.",
+        "Hobbysportler hängen oft in der grauen Zone.",
+        "Locker baut die Basis, hart setzt den Reiz."
+      ]
+    }
+  ]
+}

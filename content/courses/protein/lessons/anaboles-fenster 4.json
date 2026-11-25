@@ -1,0 +1,88 @@
+{
+  "slug": "anaboles-fenster",
+  "title": "Das anabole Fenster",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 4",
+      "heading": "Das anabole Fenster",
+      "art": "art/anaboles-fenster-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Der letzte Satz ist gedrückt. Panik! *Schnell den Shake*, sonst sind die Gains weg. Schließlich gibt es nur 30 Minuten. Oder?",
+      "art": "art/anaboles-fenster-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine große Meta-Analyse sah sich das an. Ergebnis: Wenn die *Gesamtmenge am Tag* stimmt, macht das Timing kaum einen Unterschied.",
+      "art": "art/anaboles-fenster-3.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Wie groß ist das Fenster nach dem Training eher? (in Stunden, vor und nach dem Training zusammen)",
+      "unit": "Std.",
+      "min": 0,
+      "max": 12,
+      "step": 0.5,
+      "answer": 5,
+      "tolerance": 2,
+      "explanation": "Forscher sprechen eher von mehreren Stunden rund ums Training. Wer zwei, drei Stunden vorher gegessen hat, muss danach nicht hetzen."
+    },
+    {
+      "type": "story",
+      "text": "Das Fenster ist also eher ein *Scheunentor*. Iss in den Stunden vor und nach dem Training eine normale, proteinreiche Mahlzeit. Fertig.",
+      "art": "art/anaboles-fenster-5.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Was ist für den Muskelaufbau am wichtigsten?",
+      "options": [
+        "Shake innerhalb von 30 Minuten",
+        "Genug Protein über den ganzen Tag",
+        "Protein nur morgens",
+        "Ein Shake während des Trainings"
+      ],
+      "correct": 1,
+      "explanation": "Die Tagesmenge ist der große Hebel. Timing ist Feintuning, das für die meisten Hobbysportler kaum zählt."
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Ohne Shake nach dem Training ist das Training umsonst.",
+          "true": false
+        },
+        {
+          "text": "Ein proteinreiches Essen ein paar Stunden später ist okay.",
+          "true": true
+        },
+        {
+          "text": "Shakes sind normales Essen in Pulverform.",
+          "true": true
+        }
+      ],
+      "explanation": "Ein Shake ist praktisch, aber nicht magisch. Er ist schlicht ein Lebensmittel, nur schneller zubereitet."
+    },
+    {
+      "type": "insight",
+      "text": "Die Tagesmenge schlägt das Timing. Das anabole Fenster ist Stunden groß, nicht Minuten.",
+      "art": "art/anaboles-fenster-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Plan nach deinem nächsten Training einfach eine *normale Mahlzeit* mit Protein ein. Kein Stress, kein Pulver nötig.",
+      "art": "art/anaboles-fenster-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Das 30-Minuten-Fenster ist übertrieben.",
+        "Die Tagesmenge ist der große Hebel.",
+        "Shakes sind praktisch, aber nicht nötig."
+      ]
+    }
+  ]
+}

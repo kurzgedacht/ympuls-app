@@ -1,0 +1,80 @@
+{
+  "slug": "pflanze-oder-tier",
+  "title": "Pflanze oder Tier?",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 5",
+      "heading": "Pflanze oder Tier?",
+      "art": "art/pflanze-oder-tier-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Dein Kumpel isst vegan und trainiert hart. Alle sagen: *Ohne Fleisch keine Muskeln.* Er sieht trotzdem gut aus. Wie passt das?",
+      "art": "art/pflanze-oder-tier-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Tierisches Protein hat meist ein *vollständigeres* Aminosäure-Profil. Pflanzliche Quellen haben oft Lücken. Aber: Lücken kann man füllen.",
+      "art": "art/pflanze-oder-tier-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Der Trick heißt *kombinieren*: Hülsenfrüchte plus Getreide. Linsen mit Reis, Bohnen mit Tortilla. Zusammen ergänzen sie sich.",
+      "art": "art/pflanze-oder-tier-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine Studie von 2021 verglich Veganer und Mischköstler mit gleich viel Protein, etwa 1,6 g/kg. *Ergebnis: ähnlicher Muskelzuwachs.*",
+      "art": "art/pflanze-oder-tier-5.svg"
+    },
+    {
+      "type": "match",
+      "question": "Welche Kombination ergänzt sich?",
+      "pairs": [
+        [
+          "Linsen",
+          "Reis"
+        ],
+        [
+          "Hummus",
+          "Fladenbrot"
+        ],
+        [
+          "Bohnen",
+          "Mais-Tortilla"
+        ]
+      ],
+      "explanation": "Hülsenfrüchte plus Getreide ist der klassische Mix. Viele Küchen der Welt machen das seit Jahrhunderten, ganz ohne Ernährungswissenschaft."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Mit pflanzlichem Protein kann man keine Muskeln aufbauen.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Wenn die Gesamtmenge stimmt und die Quellen gemischt sind, klappt Muskelaufbau auch pflanzlich. Man muss nur etwas bewusster planen."
+    },
+    {
+      "type": "insight",
+      "text": "Die Menge und die Mischung zählen mehr als die Quelle. Muskeln wachsen auch mit Pflanzenprotein.",
+      "art": "art/pflanze-oder-tier-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Koch diese Woche *ein Gericht* mit Hülsenfrüchten. Chili, Linsen-Dal oder Hummus. Dein Geldbeutel freut sich auch.",
+      "art": "art/pflanze-oder-tier-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Tierisches Protein ist meist vollständiger.",
+        "Pflanzlich: Hülsenfrüchte und Getreide mischen.",
+        "Bei gleicher Menge ähnlicher Muskelzuwachs."
+      ]
+    }
+  ]
+}

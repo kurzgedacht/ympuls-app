@@ -1,0 +1,67 @@
+{
+  "slug": "rituale",
+  "title": "Rituale für tiefe Arbeit",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 3",
+      "heading": "Rituale für tiefe Arbeit",
+      "art": "art/rituale-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Newport beschreibt verschiedene Wege, Deep Work einzubauen. Der alltagstauglichste: *rhythmisch*. Jeden Tag zur gleichen Zeit ein fester Fokusblock.",
+      "art": "art/rituale-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Ein zweiter Trick: *Langeweile aushalten*. Wer bei jeder Wartezeit zum Handy greift, trainiert sein Gehirn auf Ablenkung. Fokus ist wie ein Muskel.",
+      "art": "art/rituale-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Und am Ende des Tages: ein *Feierabend-Ritual*. Offene Aufgaben notieren, Plan für morgen, dann bewusst abschalten. So hört der Kopf auf zu kreisen.",
+      "art": "art/rituale-4.svg"
+    },
+    {
+      "type": "order",
+      "question": "Bring ein gutes Feierabend-Ritual in Reihenfolge.",
+      "items": [
+        "Mails ein letztes Mal checken",
+        "Offene Aufgaben aufschreiben",
+        "Plan für morgen festlegen",
+        "Laptop zu, Feierabend"
+      ],
+      "explanation": "Erst alles einsammeln, dann planen, dann bewusst schließen. Dein Kopf vertraut darauf, dass nichts verloren geht."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Konzentration ist eine feste Eigenschaft, die man nicht trainieren kann.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Newport behandelt Fokus wie eine Fähigkeit, die mit Übung wächst. Wer regelmäßig tief arbeitet, hält es mit der Zeit länger aus."
+    },
+    {
+      "type": "insight",
+      "text": "Fokus passiert nicht zufällig. Plane feste Blöcke, halte Langeweile aus und schließe den Tag bewusst ab.",
+      "art": "art/rituale-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "So setzt du es um: Erstens, blocke morgen *90 Minuten* im Kalender für deine wichtigste Aufgabe. Zweitens, Handy raus. Drittens, abends offene Punkte aufschreiben.",
+      "art": "art/rituale-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Rhythmisch: täglich fester Fokusblock.",
+        "Langeweile aushalten trainiert Fokus.",
+        "Feierabend-Ritual beruhigt den Kopf."
+      ]
+    }
+  ]
+}

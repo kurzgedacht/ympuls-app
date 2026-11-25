@@ -1,0 +1,18 @@
+{
+  "id": "deep-work-formel",
+  "kind": "quiz",
+  "card": {
+    "type": "quiz",
+    "kind": "mc",
+    "question": "Cal Newports Formel für Ergebnisse lautet: Zeit mal …",
+    "options": [
+      "Geld",
+      "Intensität",
+      "Glück"
+    ],
+    "correct": 1,
+    "explanation": "Ergebnis = Zeit × Intensität. Volle Konzentration vervielfacht, was du in derselben Zeit schaffst."
+  },
+  "category": "buecher",
+  "courseRef": "buch-deep-work"
+}

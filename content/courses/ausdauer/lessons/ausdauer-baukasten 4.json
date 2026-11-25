@@ -1,0 +1,88 @@
+{
+  "slug": "ausdauer-baukasten",
+  "title": "Dein Ausdauer-Baukasten",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 6",
+      "heading": "Dein Ausdauer-Baukasten",
+      "art": "art/ausdauer-baukasten-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Du kennst jetzt Motor, Zonen, 80/20 und Erholung. Jetzt bauen wir eine *Trainingswoche* daraus. Einfach, aber durchdacht.",
+      "art": "art/ausdauer-baukasten-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Ein Beispiel bei vier Einheiten: *zwei lockere*, ein langer ruhiger Lauf oder eine lange Radtour, und *eine* harte Intervall-Einheit.",
+      "art": "art/ausdauer-baukasten-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Steigere den Umfang *schrittweise*. Viele nutzen die 10-Prozent-Regel pro Woche. Gut belegt ist sie nicht, aber als Bremse vor zu viel zu schnell taugt sie.",
+      "art": "art/ausdauer-baukasten-4.svg"
+    },
+    {
+      "type": "order",
+      "question": "Ordne die Woche so, dass zwischen den harten Reizen genug Erholung liegt.",
+      "items": [
+        "Montag: locker",
+        "Mittwoch: Intervalle",
+        "Donnerstag: Ruhetag",
+        "Samstag: langer Lauf"
+      ],
+      "explanation": "Nach der harten Einheit kommt Erholung. Den langen Lauf am Wochenende machst du mit frischen Beinen."
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Du fühlst dich am Intervall-Tag krank und matt. Was tust du?",
+      "options": [
+        "Durchziehen, Plan ist Plan",
+        "Lockere Einheit oder Pause",
+        "Doppelt so viele Intervalle",
+        "Am Abend nachholen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Plan ist ein Rahmen, kein Befehl. Bei Krankheit und schlechter Erholung lieber locker oder gar nicht. Die harte Einheit kann warten."
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Mehr harte Einheiten bringen immer mehr.",
+          "true": false
+        },
+        {
+          "text": "Rad und Laufen zählen beide für die Ausdauer.",
+          "true": true
+        },
+        {
+          "text": "Ein Ruhetag pro Woche ist Faulheit.",
+          "true": false
+        }
+      ],
+      "explanation": "Dein Herz unterscheidet nicht zwischen Rennrad und Laufschuh. Und Erholung ist Teil des Trainings, nicht sein Gegenteil."
+    },
+    {
+      "type": "insight",
+      "text": "Viel locker, wenig hart, regelmäßig Pause, langsam steigern. Das ist der ganze Trick.",
+      "art": "art/ausdauer-baukasten-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Schreib deine *nächste Woche* auf. Markiere jede Einheit mit L für locker oder H für hart. Mindestens dreimal L.",
+      "art": "art/ausdauer-baukasten-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Basis: lockere Einheiten plus ein langer Lauf.",
+        "Eine harte Einheit pro Woche reicht oft.",
+        "Langsam steigern und auf den Körper hören."
+      ]
+    }
+  ]
+}

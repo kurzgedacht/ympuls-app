@@ -1,0 +1,86 @@
+{
+  "slug": "schwache-kontakte",
+  "title": "Die Kraft schwacher Kontakte",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 4",
+      "heading": "Die Kraft schwacher Kontakte",
+      "art": "art/schwache-kontakte-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Wer bringt dir eher einen neuen Job oder Kunden: dein *bester Freund* oder der Typ aus deinem alten Fußballverein? Überraschung: oft der zweite.",
+      "art": "art/schwache-kontakte-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Der Soziologe Mark Granovetter nannte das *die Stärke schwacher Bindungen*. Enge Freunde kennen dieselben Leute wie du. Lose Kontakte öffnen neue Kreise.",
+      "art": "art/schwache-kontakte-3.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Wie viele Menschen könntest du spontan anschreiben, die dich kennen? Schätz mal für dich.",
+      "unit": "Personen",
+      "min": 0,
+      "max": 500,
+      "step": 10,
+      "answer": 150,
+      "tolerance": 100,
+      "explanation": "Die meisten unterschätzen das massiv. Handykontakte, Instagram, Verein, Uni, Nebenjob: Da kommen schnell 150 und mehr zusammen. Das ist dein warmer Markt."
+    },
+    {
+      "type": "story",
+      "text": "Darum starten die meisten Gründer *warm*: Menschen, die dich schon kennen. Keine Kaltakquise, kein Fremder. Paul Graham sagt: Tu Dinge, die nicht skalieren.",
+      "art": "art/schwache-kontakte-5.svg"
+    },
+    {
+      "type": "match",
+      "question": "Wo findest du welche Kontakte?",
+      "pairs": [
+        [
+          "Verein",
+          "Mitspieler und Eltern"
+        ],
+        [
+          "Uni",
+          "Kommilitonen und Dozenten"
+        ],
+        [
+          "Nebenjob",
+          "Kollegen und Stammkunden"
+        ]
+      ],
+      "explanation": "Jeder Lebensbereich ist ein eigener kleiner Markt. Und jeder dort kennt wiederum andere."
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Als Introvertierter ist man beim Kundengewinnen klar im Nachteil.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 1,
+      "explanation": "Zuhören, gut schreiben, tiefe Einzelgespräche: Das sind Stärken vieler Introvertierter. Erste Kunden kommen meist über genau solche Gespräche."
+    },
+    {
+      "type": "insight",
+      "text": "Deine ersten Kunden kennen dich schon. Starte warm, persönlich und eins zu eins.",
+      "art": "art/schwache-kontakte-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Geh deine Kontakte durch und markiere *20 Leute*, die selbst Kunden sein könnten oder jemanden kennen.",
+      "art": "art/schwache-kontakte-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Lose Kontakte öffnen neue Kreise (Granovetter).",
+        "Starte mit deinem warmen Netzwerk.",
+        "Introvertierte punkten mit Zuhören und Schreiben."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "zeit-ist-der-zauber",
+  "title": "Zeit ist der Zauber",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 2",
+      "heading": "Zeit ist der Zauber",
+      "art": "art/zeit-ist-der-zauber-1.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Welcher Anteil von Warren Buffetts Vermögen entstand laut Housel nach seinem 65. Geburtstag?",
+      "unit": "%",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "answer": 96,
+      "tolerance": 8,
+      "explanation": "Rund 96 %, nach Housels Rechnung zum Zeitpunkt des Buchs. Buffett ist ein guter Investor, aber vor allem ein sehr langer. Er fing als Kind an und hörte nie auf."
+    },
+    {
+      "type": "story",
+      "text": "Housels Pointe: Es gibt Investoren mit *höheren Renditen* als Buffett. Aber keiner war so lange so konstant dabei. Zeit macht den Unterschied.",
+      "art": "art/zeit-ist-der-zauber-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Das Problem: Unser Gehirn denkt *linear*. Zinseszins ist aber exponentiell. Darum unterschätzen fast alle, was lange Zeiträume bewirken.",
+      "art": "art/zeit-ist-der-zauber-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Darum sein Rat: Nicht die *höchste* Rendite jagen, sondern eine gute, die du sehr lange durchhältst. Überleben ist wichtiger als glänzen.",
+      "art": "art/zeit-ist-der-zauber-5.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "tf",
+      "question": "Stimmt's? Laut Housel ist die wichtigste Fähigkeit beim Investieren, Krisen zu überstehen.",
+      "options": [
+        "Stimmt",
+        "Stimmt nicht"
+      ],
+      "correct": 0,
+      "explanation": "Wer nie gezwungen ist, im Crash zu verkaufen, lässt den Zinseszins in Ruhe arbeiten. Überleben ist die Voraussetzung für alles andere."
+    },
+    {
+      "type": "insight",
+      "text": "Gute Renditen, sehr lange durchgehalten, schlagen spektakuläre Renditen, die abbrechen.",
+      "art": "art/zeit-ist-der-zauber-7.svg"
+    },
+    {
+      "type": "story",
+      "text": "Und dann ist da noch *Genug*. Wer nie weiß, wann es reicht, setzt irgendwann *alles aufs Spiel*, was er schon hat. Nur für ein bisschen mehr.",
+      "art": "art/zeit-ist-der-zauber-8.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Buffetts Vermögen entstand großteils nach 65.",
+        "Unser Gehirn unterschätzt Exponentielles.",
+        "Lange durchhalten schlägt kurz glänzen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "inflation",
+  "title": "Inflation: der leise Dieb",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 5",
+      "heading": "Inflation: der leise Dieb",
+      "art": "art/inflation-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Deine Oma hat für ein Brötchen mal ein paar Pfennig bezahlt. Heute zahlst du *50 Cent oder mehr*. Das Brötchen ist nicht besser geworden.",
+      "art": "art/inflation-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Das ist *Inflation*: Preise steigen über die Zeit. Für dein Geld bekommst du jedes Jahr ein bisschen weniger.",
+      "art": "art/inflation-3.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welche Inflationsrate strebt die Europäische Zentralbank an?",
+      "options": [
+        "0 %",
+        "2 %",
+        "5 %",
+        "10 %"
+      ],
+      "correct": 1,
+      "explanation": "Die EZB zielt auf 2 % pro Jahr. Leicht steigende Preise gelten als gesund. Fallende Preise können die Wirtschaft lähmen."
+    },
+    {
+      "type": "story",
+      "text": "2 % klingt harmlos. Aber mit der 72er-Regel siehst du: Nach etwa *36 Jahren* ist dein Geld nur noch die Hälfte wert.",
+      "art": "art/inflation-5.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Bei 2 % Inflation: Wie viel kaufst du in 10 Jahren noch für 1.000 €? (heutige Preise)",
+      "unit": "€",
+      "min": 500,
+      "max": 1000,
+      "step": 10,
+      "answer": 820,
+      "tolerance": 30,
+      "explanation": "Etwa 820 €. 1.000 € geteilt durch 1,02 hoch 10 ergibt rund 820 €. Fast ein Fünftel ist einfach weg."
+    },
+    {
+      "type": "story",
+      "text": "Darum ist Geld unter dem Kopfkissen *nicht sicher*. Es verliert still an Wert. Dein Geld muss mindestens so schnell wachsen wie die Preise.",
+      "art": "art/inflation-7.svg"
+    },
+    {
+      "type": "match",
+      "question": "Was passt zusammen?",
+      "pairs": [
+        [
+          "Inflation",
+          "Preise steigen"
+        ],
+        [
+          "Kaufkraft",
+          "Was du für dein Geld bekommst"
+        ],
+        [
+          "Realzins",
+          "Zins minus Inflation"
+        ]
+      ],
+      "explanation": "Der Realzins zeigt, ob du wirklich reicher wirst. 1 % Zins bei 2 % Inflation heißt: Du verlierst real 1 % pro Jahr."
+    },
+    {
+      "type": "insight",
+      "text": "Nicht anlegen fühlt sich sicher an, ist aber ein garantierter, leiser Verlust.",
+      "art": "art/inflation-9.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Such ein Produkt, das du seit Jahren kaufst. Döner, Kinoticket, Benzin. Was hat es *vor fünf Jahren* gekostet?",
+      "art": "art/inflation-10.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Inflation: Preise steigen, Geld verliert Wert.",
+        "Bei 2 % halbiert sich die Kaufkraft in ca. 36 Jahren.",
+        "Realzins = Zins minus Inflation."
+      ]
+    }
+  ]
+}

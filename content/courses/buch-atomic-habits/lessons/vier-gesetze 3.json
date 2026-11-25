@@ -1,0 +1,95 @@
+{
+  "slug": "vier-gesetze",
+  "title": "Die vier Gesetze",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Buch · Teil 2",
+      "heading": "Die vier Gesetze",
+      "art": "art/vier-gesetze-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Jede Gewohnheit läuft laut Clear in *vier Schritten*: Ein Auslöser, ein Verlangen, eine Handlung und eine Belohnung. Dann von vorn.",
+      "art": "art/vier-gesetze-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Daraus macht er *vier Gesetze* für gute Gewohnheiten: Mach sie offensichtlich, attraktiv, einfach und befriedigend. Für schlechte drehst du alles um.",
+      "art": "art/vier-gesetze-3.svg"
+    },
+    {
+      "type": "match",
+      "question": "Welche Maßnahme passt zu welchem Gesetz?",
+      "pairs": [
+        [
+          "Offensichtlich",
+          "Laufschuhe neben die Tür stellen"
+        ],
+        [
+          "Attraktiv",
+          "Lieblings-Podcast nur beim Laufen hören"
+        ],
+        [
+          "Einfach",
+          "Mit nur fünf Minuten starten"
+        ],
+        [
+          "Befriedigend",
+          "Jeden Lauf im Kalender abhaken"
+        ]
+      ],
+      "explanation": "Jedes Gesetz hat einen eigenen Hebel. Kombinierst du alle vier, wird die Gewohnheit fast zum Selbstläufer."
+    },
+    {
+      "type": "story",
+      "text": "Ein cleverer Trick für Gesetz zwei heißt *Temptation Bundling*: Koppel etwas, das du tun solltest, an etwas, das du gern tust. Serie nur auf dem Ergometer.",
+      "art": "art/vier-gesetze-5.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mach es schwerer? Rechts, wenn das eine schlechte Gewohnheit bremst.",
+      "statements": [
+        {
+          "text": "Süßigkeiten in den obersten Schrank.",
+          "true": true
+        },
+        {
+          "text": "Netflix-App auf den Startbildschirm.",
+          "true": false
+        },
+        {
+          "text": "Nach jeder Zigarette fünf Euro ins Sparschwein.",
+          "true": true
+        }
+      ],
+      "explanation": "Das ist die Umkehrung: unsichtbar, unattraktiv, schwer und unbefriedigend machen. Genau so bremst du Gewohnheiten, die du loswerden willst."
+    },
+    {
+      "type": "insight",
+      "text": "Gute Gewohnheiten: sichtbar, attraktiv, leicht, belohnend. Schlechte: alles umdrehen.",
+      "art": "art/vier-gesetze-7.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Du willst mehr Wasser trinken. Welcher Schritt nutzt das Gesetz „offensichtlich“?",
+      "options": [
+        "Eine Wasser-App kaufen",
+        "Eine volle Flasche auf den Schreibtisch stellen",
+        "Sich mehr Mühe geben",
+        "Wasser nur am Wochenende"
+      ],
+      "correct": 1,
+      "explanation": "Sichtbar heißt: Der Auslöser springt dir ins Auge. Eine Flasche im Blickfeld erinnert dich besser als jeder Vorsatz."
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Gewohnheits-Schleife: Auslöser, Verlangen, Handlung, Belohnung.",
+        "Vier Gesetze: offensichtlich, attraktiv, einfach, befriedigend.",
+        "Für schlechte Gewohnheiten alles umkehren."
+      ]
+    }
+  ]
+}

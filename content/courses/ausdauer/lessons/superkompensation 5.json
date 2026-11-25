@@ -1,0 +1,74 @@
+{
+  "slug": "superkompensation",
+  "title": "Stärker in der Pause",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 5",
+      "heading": "Stärker in der Pause",
+      "art": "art/superkompensation-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Training macht dich erst mal *schwächer*. Direkt nach dem Intervall bist du langsamer als vorher. Wo kommt dann der Fortschritt her?",
+      "art": "art/superkompensation-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Aus der Erholung. Dein Körper repariert sich und baut *etwas mehr* auf als vorher. Trainer nennen das Modell Superkompensation.",
+      "art": "art/superkompensation-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Ehrlicherweise: Das ist ein *vereinfachtes Modell*. Echte Anpassung ist komplexer. Aber die Kernidee stimmt: Belastung plus Erholung bringt Fortschritt.",
+      "art": "art/superkompensation-4.svg"
+    },
+    {
+      "type": "order",
+      "question": "Bring den Zyklus in die richtige Reihenfolge.",
+      "items": [
+        "Trainingsreiz setzen",
+        "Ermüdung",
+        "Erholung und Schlaf",
+        "Leistung steigt über das Ausgangsniveau"
+      ],
+      "explanation": "Ohne Erholung bleibst du in der Ermüdung stecken. Der Fortschritt entsteht erst in der Pause."
+    },
+    {
+      "type": "story",
+      "text": "Zu wenig Pause, und die Kurven stapeln sich *nach unten*. Das führt im Extremfall zum Übertraining: Leistung sinkt, Laune auch, Schlaf wird schlecht.",
+      "art": "art/superkompensation-6.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Wann wird dein Körper nach einem harten Training stärker?",
+      "options": [
+        "Während des Trainings",
+        "In der Erholung danach",
+        "Nur wenn du direkt weitertrainierst",
+        "Gar nicht, er wird nur müde"
+      ],
+      "correct": 1,
+      "explanation": "Im Training setzt du den Reiz. Umgebaut wird danach, vor allem im Schlaf. Darum gehört Erholung zum Plan."
+    },
+    {
+      "type": "insight",
+      "text": "Training ist der Reiz, Erholung ist der Fortschritt. Wer Pausen streicht, streicht Ergebnisse.",
+      "art": "art/superkompensation-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Plane in deiner nächsten Woche *einen echten Ruhetag* fest ein. Kein schlechtes Gewissen. Er gehört zum Training.",
+      "art": "art/superkompensation-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Training ermüdet zuerst.",
+        "In der Erholung baut der Körper mehr auf.",
+        "Zu wenig Pause führt zu Leistungsabfall."
+      ]
+    }
+  ]
+}

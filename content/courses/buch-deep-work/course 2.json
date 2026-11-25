@@ -1,0 +1,29 @@
+{
+  "slug": "buch-deep-work",
+  "title": "Deep Work",
+  "subtitle": "Konzentriert arbeiten in einer abgelenkten Welt",
+  "author": "Cal Newport",
+  "category": "buecher",
+  "format": "book",
+  "level": 2,
+  "estMinutes": 7,
+  "createdAt": "2026-11-25",
+  "hook": "Jeder kurze Blick aufs Handy lässt einen Rest deiner Aufmerksamkeit zurück. Wer das versteht, arbeitet in drei Stunden mehr als andere in acht.",
+  "sources": [
+    "Cal Newport: Deep Work (2016), deutsch: Konzentriert arbeiten",
+    "Leroy (2009): Why is it so hard to do my work? The challenge of attention residue. Organizational Behavior and Human Decision Processes 109(2)",
+    "Mark, González & Harris (2005): No task left behind? Examining the nature of fragmented work. CHI Proceedings",
+    "Ericsson, Krampe & Tesch-Römer (1993): The role of deliberate practice. Psychological Review"
+  ],
+  "units": [
+    {
+      "id": "u1",
+      "title": "Die Kernideen",
+      "lessons": [
+        "tief-vs-flach",
+        "aufmerksamkeitsreste",
+        "rituale"
+      ]
+    }
+  ]
+}

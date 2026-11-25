@@ -1,0 +1,104 @@
+{
+  "slug": "wohin-geht-dein-geld",
+  "title": "Wohin dein Geld wirklich geht",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 1",
+      "heading": "Wohin dein Geld wirklich geht",
+      "art": "art/wohin-geht-dein-geld-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "Der Monat ist erst halb rum. Das Konto ist schon *fast leer*. Und du weißt nicht mal genau, wofür. Kennst du das?",
+      "art": "art/wohin-geht-dein-geld-2.svg"
+    },
+    {
+      "type": "estimate",
+      "question": "Wie viele kleine Ausgaben unter 10 € hat ein typischer Monat? Schätz mal für dich.",
+      "unit": "Stück",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "answer": 40,
+      "tolerance": 15,
+      "explanation": "Es gibt keine exakte Zahl für alle, aber 30 bis 50 Mini-Käufe sind normal: Bäcker, Getränk, App, Snack. Einzeln harmlos, zusammen oft 150 € und mehr. Genau die übersieht man."
+    },
+    {
+      "type": "story",
+      "text": "Das Problem sind selten die großen Posten. Miete und Handy kennst du. Es sind die *vielen kleinen*, die leise wegtröpfeln.",
+      "art": "art/wohin-geht-dein-geld-4.svg"
+    },
+    {
+      "type": "story",
+      "text": "Eine einfache Faustregel hilft: die *50/30/20-Regel*. 50 % für Fixes, 30 % für Spaß, 20 % für dein Zukunfts-Ich.",
+      "art": "art/wohin-geht-dein-geld-5.svg"
+    },
+    {
+      "type": "story",
+      "text": "Beispiel: Dein Nebenjob bringt 800 €. Dann sind 400 € für Miete und Essen, 240 € für Spaß und *160 € für dich später*.",
+      "art": "art/wohin-geht-dein-geld-6.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Du verdienst 1.000 € netto. Wie viel geht nach 50/30/20 in die Zukunft?",
+      "options": [
+        "100 €",
+        "200 €",
+        "300 €",
+        "500 €"
+      ],
+      "correct": 1,
+      "explanation": "20 % von 1.000 € sind 200 €. Die 30 % (300 €) sind Spaßgeld, nicht Sparen. Viele verwechseln die beiden Töpfe."
+    },
+    {
+      "type": "poll",
+      "question": "Was würdest du mit 100 € Geburtstagsgeld machen?",
+      "options": [
+        "Sofort ausgeben",
+        "Hälfte sparen",
+        "Alles sparen"
+      ],
+      "majority": 1,
+      "note": "Die Mitte ist gar nicht schlecht: Eine Hälfte genießen, eine Hälfte für später. Genau das ist die Idee hinter einem Budget."
+    },
+    {
+      "type": "insight",
+      "text": "Ein Budget ist kein Verbot. Es ist ein Plan, damit dein Geld da landet, wo du es willst.",
+      "art": "art/wohin-geht-dein-geld-9.svg"
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Wer wenig verdient, braucht kein Budget.",
+          "true": false
+        },
+        {
+          "text": "Kleine Ausgaben können über 100 € im Monat ausmachen.",
+          "true": true
+        },
+        {
+          "text": "Die 50/30/20-Regel ist ein Gesetz.",
+          "true": false
+        }
+      ],
+      "explanation": "Gerade mit wenig Geld bringt ein Budget am meisten. Und 50/30/20 ist nur eine Faustregel. Passe sie an dein Leben an."
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Öffne heute deine Banking-App. Zähl die Ausgaben unter 10 € im letzten Monat. *Nur zählen*, nicht urteilen.",
+      "art": "art/wohin-geht-dein-geld-11.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Die kleinen Ausgaben fressen oft mehr als gedacht.",
+        "50/30/20: Fixkosten, Spaß, Zukunft.",
+        "Ein Budget ist ein Plan, kein Verbot."
+      ]
+    }
+  ]
+}

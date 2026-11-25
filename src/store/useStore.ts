@@ -8,7 +8,7 @@ import type { CategorySlug } from "../brand";
 import { courseBySlug, courses, lessonOrder } from "../content";
 import { fx } from "./fx";
 
-export interface DayStat { sec: number; snacks: number; lessons: number; reviews: number; correct: number }
+export interface DayStat { sec: number; snacks: number; lessons: number; reviews: number; correct: number; cats?: Record<string, number> }
 export interface Settings {
   sound: boolean; haptics: boolean; theme: "system" | "light" | "dark"; goal: 5 | 10 | 15; favorites: CategorySlug[];
 }
@@ -144,7 +144,7 @@ export const useStore = create<State & Actions>()(
             totals: { ...get().totals, lessons: get().totals.lessons + 1 },
             categoriesTried: category && !get().categoriesTried.includes(category) ? [...get().categoriesTried, category] : get().categoriesTried,
           });
-          patchDay((d) => ({ lessons: d.lessons + 1 }));
+          patchDay((d) => ({ lessons: d.lessons + 1, cats: category ? { ...d.cats, [category]: (d.cats?.[category] ?? 0) + 1 } : d.cats }));
           activity();
           const bonus = perfect ? get().gain(25, { noCombo: true }) : 0;
           get().checkBadges(true);

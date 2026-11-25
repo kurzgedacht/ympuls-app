@@ -1,0 +1,25 @@
+{
+  "id": "notgroschen-myth",
+  "kind": "myth",
+  "card": {
+    "type": "swipe",
+    "question": "Mythos oder Fakt?",
+    "statements": [
+      {
+        "text": "Der Notgroschen gehört in Aktien.",
+        "true": false
+      },
+      {
+        "text": "Drei Monatsausgaben sind ein guter Richtwert.",
+        "true": true
+      },
+      {
+        "text": "Der Dispo ist ein günstiger Notfallkredit.",
+        "true": false
+      }
+    ],
+    "explanation": "Notgroschen: sicher und sofort verfügbar, z. B. Tagesgeld. Dispozinsen liegen oft über 10 %."
+  },
+  "category": "finanzen",
+  "courseRef": "geld-grundlagen"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "besser-prompten",
+  "title": "Besser prompten",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 6",
+      "heading": "Besser prompten",
+      "art": "art/besser-prompten-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "„Schreib was über Marketing.“ Die Antwort: *allgemeines Blabla*. Kein Wunder. Die KI weiß nichts über dich, dein Ziel oder dein Publikum.",
+      "art": "art/besser-prompten-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Denk an einen *neuen Praktikanten*: schlau, aber ohne Kontext. Je genauer dein Briefing, desto besser das Ergebnis.",
+      "art": "art/besser-prompten-3.svg"
+    },
+    {
+      "type": "story",
+      "text": "Ein gutes Briefing hat vier Teile: *Kontext*, Ziel, Beispiel, Format. Wer bist du, was soll raus, wie soll es aussehen?",
+      "art": "art/besser-prompten-4.svg"
+    },
+    {
+      "type": "order",
+      "question": "Bau einen starken Prompt in sinnvoller Reihenfolge.",
+      "items": [
+        "Ich biete Lauftraining für Einsteiger an.",
+        "Ich brauche einen Instagram-Post für Neukunden.",
+        "So klingt mein Stil: locker, motivierend.",
+        "Gib mir 3 Varianten mit je 50 Wörtern."
+      ],
+      "explanation": "Erst Kontext, dann Ziel, dann Beispiel oder Stil, dann Format. So hat die KI alles, was ein guter Praktikant auch bräuchte."
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welcher Prompt bringt wahrscheinlich die beste Antwort?",
+      "options": [
+        "Erklär mir HRV.",
+        "Erklär mir HRV wie einem 19-jährigen Läufer, mit Beispiel und in 5 Sätzen.",
+        "HRV?",
+        "Schreib alles über HRV."
+      ],
+      "correct": 1,
+      "explanation": "Zielgruppe, Beispiel, Länge: Damit weiß die KI genau, was du brauchst."
+    },
+    {
+      "type": "swipe",
+      "question": "Hilft das meistens? Rechts für ja.",
+      "statements": [
+        {
+          "text": "Der KI eine Rolle geben: Du bist Steuerberater.",
+          "true": true
+        },
+        {
+          "text": "Möglichst kurz und vage fragen.",
+          "true": false
+        },
+        {
+          "text": "Nachhaken: Was fehlt noch? Prüfe deine Antwort.",
+          "true": true
+        }
+      ],
+      "explanation": "Rollen, Details und Nachfragen verbessern Antworten spürbar. Ein Prompt ist ein Gespräch, kein Einmal-Befehl."
+    },
+    {
+      "type": "insight",
+      "text": "Behandle eine KI wie einen klugen Praktikanten am ersten Tag: Kontext, Ziel, Beispiel, Format.",
+      "art": "art/besser-prompten-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Nimm deine letzte KI-Frage und schreib sie neu, *mit allen vier Teilen*. Vergleich die Antworten.",
+      "art": "art/besser-prompten-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "Vage Fragen bringen vage Antworten.",
+        "Kontext, Ziel, Beispiel, Format.",
+        "Nachhaken verbessert jedes Ergebnis."
+      ]
+    }
+  ]
+}

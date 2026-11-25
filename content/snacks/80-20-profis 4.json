@@ -1,0 +1,18 @@
+{
+  "id": "80-20-profis",
+  "kind": "quiz",
+  "card": {
+    "type": "quiz",
+    "kind": "mc",
+    "question": "Wie viel ihres Trainings machen Spitzen-Ausdauerathleten locker?",
+    "options": [
+      "Etwa 20 %",
+      "Etwa 50 %",
+      "Etwa 80 %"
+    ],
+    "correct": 2,
+    "explanation": "Rund 80 % der Einheiten sind locker (Seiler). Nur jede fünfte ist hart."
+  },
+  "category": "sport",
+  "courseRef": "ausdauer"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "reich-vs-wohlhabend",
+  "kind": "quote-idea",
+  "card": {
+    "type": "story",
+    "text": "Buch-Idee: *Reich* ist, was man sieht, etwa ein teures Auto. *Wohlhabend* ist das Geld, das du nicht ausgegeben hast. Das sieht niemand.",
+    "art": "art/reich-vs-wohlhabend.svg"
+  },
+  "category": "buecher",
+  "courseRef": "buch-psychology-of-money"
+}

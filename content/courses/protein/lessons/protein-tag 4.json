@@ -1,0 +1,88 @@
+{
+  "slug": "protein-tag",
+  "title": "Dein Protein-Tag",
+  "cards": [
+    {
+      "type": "title",
+      "kicker": "Lektion 6",
+      "heading": "Dein Protein-Tag",
+      "art": "art/protein-tag-1.svg"
+    },
+    {
+      "type": "story",
+      "text": "120 Gramm Protein klingt nach *Bodybuilder-Speiseplan*. Ist es aber nicht. Mit vier normalen Mahlzeiten kommst du locker hin.",
+      "art": "art/protein-tag-2.svg"
+    },
+    {
+      "type": "story",
+      "text": "Frühstück: Skyr mit Haferflocken, etwa *30 Gramm*. Mittag: Hähnchen oder Tofu mit Reis, wieder rund 35. Klingt machbar, oder?",
+      "art": "art/protein-tag-3.svg"
+    },
+    {
+      "type": "order",
+      "question": "Sortier von viel nach wenig Protein (pro 100 g).",
+      "items": [
+        "Hähnchenbrust",
+        "Magerquark",
+        "Gekochte Linsen",
+        "Vollkornbrot"
+      ],
+      "explanation": "Hähnchenbrust etwa 23 g, Magerquark etwa 12 g, gekochte Linsen etwa 9 g, Vollkornbrot etwa 7 g. Jeweils grob, je nach Produkt."
+    },
+    {
+      "type": "story",
+      "text": "Und die Nieren? Bei *gesunden Menschen* zeigte eine Meta-Analyse keine Schäden durch proteinreiche Ernährung. Wer eine Nierenerkrankung hat, spricht mit dem Arzt.",
+      "art": "art/protein-tag-5.svg"
+    },
+    {
+      "type": "quiz",
+      "kind": "mc",
+      "question": "Welcher Snack liefert am meisten Protein?",
+      "options": [
+        "Ein Apfel",
+        "Eine Handvoll Gummibärchen",
+        "Ein Becher Skyr (150 g)",
+        "Ein Croissant"
+      ],
+      "correct": 2,
+      "explanation": "Ein Becher Skyr hat etwa 15 bis 17 g Protein. Der Rest liegt bei einem bis fünf Gramm."
+    },
+    {
+      "type": "swipe",
+      "question": "Mythos oder Fakt?",
+      "statements": [
+        {
+          "text": "Viel Protein schadet gesunden Nieren.",
+          "true": false
+        },
+        {
+          "text": "Mit normalen Lebensmitteln schafft man 1,6 g/kg.",
+          "true": true
+        },
+        {
+          "text": "Proteinpulver ist Pflicht für Muskelaufbau.",
+          "true": false
+        }
+      ],
+      "explanation": "Pulver ist bequem, aber kein Muss. Quark, Eier, Hülsenfrüchte, Fisch und Fleisch reichen völlig."
+    },
+    {
+      "type": "insight",
+      "text": "Protein in jeder Mahlzeit, und die Rechnung geht auf. Ohne Pulver, ohne Stress.",
+      "art": "art/protein-tag-8.svg"
+    },
+    {
+      "type": "story",
+      "text": "Probier's aus: Notier morgen *jede Mahlzeit* und schätz grob das Protein. Am Abend weißt du, wie weit du von deinem Ziel weg bist.",
+      "art": "art/protein-tag-9.svg"
+    },
+    {
+      "type": "recap",
+      "bullets": [
+        "120 g schaffst du mit vier normalen Mahlzeiten.",
+        "Quark, Skyr, Eier, Hülsenfrüchte sind Champions.",
+        "Gesunde Nieren vertragen proteinreiche Kost."
+      ]
+    }
+  ]
+}

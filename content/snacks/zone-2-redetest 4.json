@@ -1,0 +1,11 @@
+{
+  "id": "zone-2-redetest",
+  "kind": "howto",
+  "card": {
+    "type": "story",
+    "text": "Der einfachste Zonen-Check: Kannst du beim Laufen *ganze Sätze* sprechen? Dann bist du locker unterwegs. Keuchst du? Dann bist du zu schnell.",
+    "art": "art/zone-2-redetest.svg"
+  },
+  "category": "sport",
+  "courseRef": "ausdauer"
+}
